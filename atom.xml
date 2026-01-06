@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>7zMonkey&#39; BLOG</title>
+  <title>Eeymoo&#39; BLOG</title>
   
   
-  <link href="https://www.7zmonkey.tech/atom.xml" rel="self"/>
+  <link href="https://blog.eeymoo.com/atom.xml" rel="self"/>
   
-  <link href="https://www.7zmonkey.tech/"/>
-  <updated>2026-01-06T07:40:07.657Z</updated>
-  <id>https://www.7zmonkey.tech/</id>
+  <link href="https://blog.eeymoo.com/"/>
+  <updated>2026-01-06T07:43:06.833Z</updated>
+  <id>https://blog.eeymoo.com/</id>
   
   <author>
-    <name>7zMonkey</name>
+    <name>Eeymoo</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>目录</title>
-    <link href="https://www.7zmonkey.tech/blog/f4961fb375b4.html"/>
-    <id>https://www.7zmonkey.tech/blog/f4961fb375b4.html</id>
+    <link href="https://blog.eeymoo.com/blog/f4961fb375b4.html"/>
+    <id>https://blog.eeymoo.com/blog/f4961fb375b4.html</id>
     <published>2023-09-01T06:51:47.000Z</published>
     <updated>2023-09-01T06:51:47.000Z</updated>
     
@@ -37,14 +37,14 @@
     
     
     
-    <category term="设计模式" scheme="https://www.7zmonkey.tech/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="设计模式" scheme="https://blog.eeymoo.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
   </entry>
   
   <entry>
     <title>序</title>
-    <link href="https://www.7zmonkey.tech/blog/233601af6e0a.html"/>
-    <id>https://www.7zmonkey.tech/blog/233601af6e0a.html</id>
+    <link href="https://blog.eeymoo.com/blog/233601af6e0a.html"/>
+    <id>https://blog.eeymoo.com/blog/233601af6e0a.html</id>
     <published>2023-09-01T06:23:54.000Z</published>
     <updated>2023-09-01T06:23:54.000Z</updated>
     
@@ -59,17 +59,17 @@
     
     
     
-    <category term="设计模式" scheme="https://www.7zmonkey.tech/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="设计模式" scheme="https://blog.eeymoo.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
     
-    <category term="设计模式" scheme="https://www.7zmonkey.tech/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="设计模式" scheme="https://blog.eeymoo.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
   </entry>
   
   <entry>
     <title>单例模式 - 使用闭包完成单例模式开发</title>
-    <link href="https://www.7zmonkey.tech/blog/759f0059ff34.html"/>
-    <id>https://www.7zmonkey.tech/blog/759f0059ff34.html</id>
+    <link href="https://blog.eeymoo.com/blog/759f0059ff34.html"/>
+    <id>https://blog.eeymoo.com/blog/759f0059ff34.html</id>
     <published>2023-09-01T06:23:23.000Z</published>
     <updated>2023-09-01T06:23:23.000Z</updated>
     
@@ -84,17 +84,17 @@
     
     
     
-    <category term="设计模式" scheme="https://www.7zmonkey.tech/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="设计模式" scheme="https://blog.eeymoo.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
     
-    <category term="设计模式" scheme="https://www.7zmonkey.tech/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="设计模式" scheme="https://blog.eeymoo.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
   </entry>
   
   <entry>
     <title>关于 JavaScript 中 Object 顺序的一些探索</title>
-    <link href="https://www.7zmonkey.tech/blog/f4a8e220f18b.html"/>
-    <id>https://www.7zmonkey.tech/blog/f4a8e220f18b.html</id>
+    <link href="https://blog.eeymoo.com/blog/f4a8e220f18b.html"/>
+    <id>https://blog.eeymoo.com/blog/f4a8e220f18b.html</id>
     <published>2023-08-18T17:47:53.000Z</published>
     <updated>2023-08-18T17:47:53.000Z</updated>
     
@@ -117,8 +117,8 @@
   
   <entry>
     <title>Obsidian + Hexo + Github Pages + Github Actions 自动化部署博客</title>
-    <link href="https://www.7zmonkey.tech/blog/a871698f1912.html"/>
-    <id>https://www.7zmonkey.tech/blog/a871698f1912.html</id>
+    <link href="https://blog.eeymoo.com/blog/a871698f1912.html"/>
+    <id>https://blog.eeymoo.com/blog/a871698f1912.html</id>
     <published>2023-07-29T12:43:27.000Z</published>
     <updated>2023-07-29T12:43:27.000Z</updated>
     
@@ -133,19 +133,19 @@
     
     
     
-    <category term="DevOps" scheme="https://www.7zmonkey.tech/categories/DevOps/"/>
+    <category term="DevOps" scheme="https://blog.eeymoo.com/categories/DevOps/"/>
     
     
-    <category term="DevOps" scheme="https://www.7zmonkey.tech/tags/DevOps/"/>
+    <category term="DevOps" scheme="https://blog.eeymoo.com/tags/DevOps/"/>
     
-    <category term="Github Actions" scheme="https://www.7zmonkey.tech/tags/Github-Actions/"/>
+    <category term="Github Actions" scheme="https://blog.eeymoo.com/tags/Github-Actions/"/>
     
   </entry>
   
   <entry>
     <title>浅谈 CSS 选择器优先级的计算规则</title>
-    <link href="https://www.7zmonkey.tech/blog/61b7ac3ee9e9.html"/>
-    <id>https://www.7zmonkey.tech/blog/61b7ac3ee9e9.html</id>
+    <link href="https://blog.eeymoo.com/blog/61b7ac3ee9e9.html"/>
+    <id>https://blog.eeymoo.com/blog/61b7ac3ee9e9.html</id>
     <published>2022-05-31T19:39:00.000Z</published>
     <updated>2022-05-31T19:39:00.000Z</updated>
     
@@ -163,12 +163,12 @@
     
     
     
-    <category term="CSS" scheme="https://www.7zmonkey.tech/categories/CSS/"/>
+    <category term="CSS" scheme="https://blog.eeymoo.com/categories/CSS/"/>
     
     
-    <category term="CSS" scheme="https://www.7zmonkey.tech/tags/CSS/"/>
+    <category term="CSS" scheme="https://blog.eeymoo.com/tags/CSS/"/>
     
-    <category term="WEB 标准" scheme="https://www.7zmonkey.tech/tags/WEB-%E6%A0%87%E5%87%86/"/>
+    <category term="WEB 标准" scheme="https://blog.eeymoo.com/tags/WEB-%E6%A0%87%E5%87%86/"/>
     
   </entry>
   
