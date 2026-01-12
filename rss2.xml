@@ -9,13 +9,13 @@
     <atom:link href="https://blog.eeymoo.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Eeymoo&#39; BLOG 记录 Eeymoo 的 BLOG</description>
-    <pubDate>Mon, 12 Jan 2026 04:01:31 GMT</pubDate>
+    <pubDate>Mon, 12 Jan 2026 04:04:02 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>2026 年最新！Obsidian + Github Pages + Github Actions 自动化部署博客全攻略</title>
-      <link>https://blog.eeymoo.com/blog/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html</link>
-      <guid>https://blog.eeymoo.com/blog/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html</guid>
+      <link>https://blog.eeymoo.com/post/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html</link>
+      <guid>https://blog.eeymoo.com/post/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html</guid>
       <pubDate>Tue, 06 Jan 2026 03:54:34 GMT</pubDate>
       
         
@@ -30,7 +30,7 @@
       
       
       
-      <comments>https://blog.eeymoo.com/blog/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html#disqus_thread</comments>
+      <comments>https://blog.eeymoo.com/post/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html#disqus_thread</comments>
       
     </item>
     
@@ -90,8 +90,8 @@
     
     <item>
       <title>探索 JavaScript Object 顺序：从迷惑到通透，一文读懂</title>
-      <link>https://blog.eeymoo.com/blog/exploration-on-object-order-in-javascript.html</link>
-      <guid>https://blog.eeymoo.com/blog/exploration-on-object-order-in-javascript.html</guid>
+      <link>https://blog.eeymoo.com/post/exploration-on-object-order-in-javascript.html</link>
+      <guid>https://blog.eeymoo.com/post/exploration-on-object-order-in-javascript.html</guid>
       <pubDate>Fri, 18 Aug 2023 17:47:53 GMT</pubDate>
       
         
@@ -110,14 +110,14 @@
       
       
       
-      <comments>https://blog.eeymoo.com/blog/exploration-on-object-order-in-javascript.html#disqus_thread</comments>
+      <comments>https://blog.eeymoo.com/post/exploration-on-object-order-in-javascript.html#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>Obsidian + Hexo + Github Pages + Github Actions 自动化部署博客</title>
-      <link>https://blog.eeymoo.com/blog/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html</link>
-      <guid>https://blog.eeymoo.com/blog/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html</guid>
+      <link>https://blog.eeymoo.com/post/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html</link>
+      <guid>https://blog.eeymoo.com/post/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html</guid>
       <pubDate>Sat, 29 Jul 2023 12:43:27 GMT</pubDate>
       
         
@@ -139,14 +139,14 @@
       <category domain="https://blog.eeymoo.com/tags/Github-Actions/">Github Actions</category>
       
       
-      <comments>https://blog.eeymoo.com/blog/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html#disqus_thread</comments>
+      <comments>https://blog.eeymoo.com/post/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>一文说透！CSS 选择器优先级计算规则大揭秘</title>
-      <link>https://blog.eeymoo.com/blog/talk-about-css-selector-priority-calculation-rules.html</link>
-      <guid>https://blog.eeymoo.com/blog/talk-about-css-selector-priority-calculation-rules.html</guid>
+      <link>https://blog.eeymoo.com/post/talk-about-css-selector-priority-calculation-rules.html</link>
+      <guid>https://blog.eeymoo.com/post/talk-about-css-selector-priority-calculation-rules.html</guid>
       <pubDate>Tue, 31 May 2022 19:39:00 GMT</pubDate>
       
         
@@ -171,7 +171,7 @@
       <category domain="https://blog.eeymoo.com/tags/WEB-%E6%A0%87%E5%87%86/">WEB 标准</category>
       
       
-      <comments>https://blog.eeymoo.com/blog/talk-about-css-selector-priority-calculation-rules.html#disqus_thread</comments>
+      <comments>https://blog.eeymoo.com/post/talk-about-css-selector-priority-calculation-rules.html#disqus_thread</comments>
       
     </item>
     

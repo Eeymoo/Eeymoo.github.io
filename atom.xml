@@ -6,7 +6,7 @@
   <link href="https://blog.eeymoo.com/atom.xml" rel="self"/>
   
   <link href="https://blog.eeymoo.com/"/>
-  <updated>2026-01-12T04:01:31.600Z</updated>
+  <updated>2026-01-12T04:04:02.700Z</updated>
   <id>https://blog.eeymoo.com/</id>
   
   <author>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>2026 年最新！Obsidian + Github Pages + Github Actions 自动化部署博客全攻略</title>
-    <link href="https://blog.eeymoo.com/blog/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html"/>
-    <id>https://blog.eeymoo.com/blog/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html</id>
+    <link href="https://blog.eeymoo.com/post/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html"/>
+    <id>https://blog.eeymoo.com/post/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html</id>
     <published>2026-01-06T03:54:34.000Z</published>
     <updated>2026-01-06T03:54:34.000Z</updated>
     
@@ -88,8 +88,8 @@
   
   <entry>
     <title>探索 JavaScript Object 顺序：从迷惑到通透，一文读懂</title>
-    <link href="https://blog.eeymoo.com/blog/exploration-on-object-order-in-javascript.html"/>
-    <id>https://blog.eeymoo.com/blog/exploration-on-object-order-in-javascript.html</id>
+    <link href="https://blog.eeymoo.com/post/exploration-on-object-order-in-javascript.html"/>
+    <id>https://blog.eeymoo.com/post/exploration-on-object-order-in-javascript.html</id>
     <published>2023-08-18T17:47:53.000Z</published>
     <updated>2023-08-18T17:47:53.000Z</updated>
     
@@ -112,8 +112,8 @@
   
   <entry>
     <title>Obsidian + Hexo + Github Pages + Github Actions 自动化部署博客</title>
-    <link href="https://blog.eeymoo.com/blog/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html"/>
-    <id>https://blog.eeymoo.com/blog/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html</id>
+    <link href="https://blog.eeymoo.com/post/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html"/>
+    <id>https://blog.eeymoo.com/post/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html</id>
     <published>2023-07-29T12:43:27.000Z</published>
     <updated>2023-07-29T12:43:27.000Z</updated>
     
@@ -139,8 +139,8 @@
   
   <entry>
     <title>一文说透！CSS 选择器优先级计算规则大揭秘</title>
-    <link href="https://blog.eeymoo.com/blog/talk-about-css-selector-priority-calculation-rules.html"/>
-    <id>https://blog.eeymoo.com/blog/talk-about-css-selector-priority-calculation-rules.html</id>
+    <link href="https://blog.eeymoo.com/post/talk-about-css-selector-priority-calculation-rules.html"/>
+    <id>https://blog.eeymoo.com/post/talk-about-css-selector-priority-calculation-rules.html</id>
     <published>2022-05-31T19:39:00.000Z</published>
     <updated>2022-05-31T19:39:00.000Z</updated>
     
