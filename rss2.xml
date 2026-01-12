@@ -9,7 +9,7 @@
     <atom:link href="https://blog.eeymoo.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Eeymoo&#39; BLOG 记录 Eeymoo 的 BLOG</description>
-    <pubDate>Mon, 12 Jan 2026 04:04:02 GMT</pubDate>
+    <pubDate>Tue, 06 Jan 2026 03:54:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -28,6 +28,12 @@
       <content:encoded><![CDATA[<p>在 2023 年的时候我写了一篇[[Obsidian + Hexo + Github Pages + Github Actions 自动化部署博客]] 的文章，里面介绍了一下利用 Github Actions + Obsidian 进行静态博客部署的文章，现在看来存在很多的问题，比如说在 Obsidian 仓库的 Acitons 比较复杂，于是修改一下逻辑，将主要的 Actions 放到了 hexo-template 仓库，从而如果出现模板仓库需要更换、迭代、大修时，只需更换新的仓库，以及新的仓库即可，甚至不需要修改 Obsidian 中的 Acitons，对原本的架构进行了解耦。</p><p>将部署相关的内容完全存储在部署模板仓库，在部署模板仓库编译完成后，直接推送到Pages 仓库，具体逻辑如下图：</p><pre class="mermaid">sequenceDiagram# 明确标注3个独立仓库 + 本地电脑 + Pages服务participant Local as 本地电脑participant Repo1 as 仓库1：Obsidian笔记仓库(仅存.md)participant Repo2 as 仓库2：部署模板仓库(仅存Actions脚本)participant Repo3 as 仓库3：Pages静态文件仓库(仅存.html)participant Pages as GitHub Pages服务(指向Repo3)# 可选触发：本地推送笔记才执行后续流程opt 本地推送Obsidian笔记触发部署    Local->>Repo1: git push 推送修改后的.md笔记    # 跨仓库触发：笔记仓库调用部署仓库的Actions    Repo1->>Repo2: 触发 repository_dispatch 事件（obsidian-content-update）    # 激活部署仓库，开始执行部署脚本    activate Repo2        Repo2->>Repo1: git pull 拉取Repo1最新的.md笔记        Repo2->>Repo2: 执行脚本，将.md转换为.html静态文件        Repo2->>Repo3: git push 推送生成的.html到Repo3的main/gh-pages分支        # Pages服务监听Repo3的指定分支，更新后自动发布        Repo3->>Pages: 分支内容更新，触发Pages服务同步        Pages->>Pages: 加载Repo3的.html文件，对外发布可访问的网页    # 部署完成，停用部署仓库的执行状态    deactivate Repo2end</pre><p>在这次改造后，如果切换部署相关内容模板，可以修改部署模板，如果仓库名不进行改变的话甚至可以不修改 Obsidian 仓库，只修改 模板仓库即可。</p><p>我 Obsidian 仓库的 Github Actions 只做了最基础的触发功能。</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">name:</span> <span class="string">trigger-hexo-build</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Obsidian内容变更时，触发Hexo模板仓库的主流程</span></span><br><span class="line"></span><br><span class="line"><span class="attr">on:</span></span><br><span class="line"></span><br><span class="line"><span class="attr">push:</span></span><br><span class="line"></span><br><span class="line"><span class="attr">branches:</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="string">master</span></span><br><span class="line"></span><br><span class="line"><span class="attr">env:</span></span><br><span class="line"></span><br><span class="line"><span class="attr">HEXO_TEMPLATE_REPO:</span> <span class="string">Eeymoo/obsidian2hexo-template</span> <span class="comment"># Hexo模板仓库</span></span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line"><span class="attr">jobs:</span></span><br><span class="line"></span><br><span class="line"><span class="attr">trigger-hexo:</span></span><br><span class="line"></span><br><span class="line"><span class="attr">runs-on:</span> <span class="string">ubuntu-latest</span></span><br><span class="line"></span><br><span class="line"><span class="attr">steps:</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Trigger</span> <span class="string">Hexo</span> <span class="string">Template</span> <span class="string">Build</span></span><br><span class="line"></span><br><span class="line"><span class="attr">uses:</span> <span class="string">peter-evans/repository-dispatch@v3</span></span><br><span class="line"></span><br><span class="line"><span class="attr">with:</span></span><br><span class="line"></span><br><span class="line"><span class="attr">token:</span> <span class="string">$&#123;&#123;</span> <span class="string">secrets.SERVICE_ACCOUNT_KEY</span> <span class="string">&#125;&#125;</span> <span class="comment"># 有触发权限的密钥</span></span><br><span class="line"></span><br><span class="line"><span class="attr">repository:</span> <span class="string">$&#123;&#123;</span> <span class="string">env.HEXO_TEMPLATE_REPO</span> <span class="string">&#125;&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">event-type:</span> <span class="string">obsidian-content-update</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 传递触发信息（便于调试）</span></span><br><span class="line"></span><br><span class="line"><span class="attr">client-payload:</span> <span class="string">|</span></span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line"><span class="attr">&quot;obsidian_ref&quot;:</span> <span class="string">&quot;$<span class="template-variable">&#123;&#123; github.ref &#125;&#125;</span>&quot;</span>,</span><br><span class="line"></span><br><span class="line"><span class="attr">&quot;obsidian_sha&quot;:</span> <span class="string">&quot;$<span class="template-variable">&#123;&#123; github.sha &#125;&#125;</span>&quot;</span>,</span><br><span class="line"></span><br><span class="line"><span class="attr">&quot;triggered_by&quot;:</span> <span class="string">&quot;Obsidian content update&quot;</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>整体部署功能实在 <a href="https://github.com/Eeymoo/obsidian2hexo-template">部署仓库</a> 中，当前是 Hexo ，后续我可能会使用其他支持 <strong>mdx</strong> 的静态部署功能。</p><p>这样就见我我们的 Obsidian 仓库与部署仓库隔离，可以将 Obsidian 仓库隐藏，保持可以保证一定的信息隔离，当然数据联网就不是绝对安全的。</p>]]></content:encoded>
       
       
+      <category domain="https://blog.eeymoo.com/categories/DevOps/">DevOps</category>
+      
+      
+      <category domain="https://blog.eeymoo.com/tags/DevOps/">DevOps</category>
+      
+      <category domain="https://blog.eeymoo.com/tags/GitHub-Actions/">GitHub_Actions</category>
       
       
       <comments>https://blog.eeymoo.com/post/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html#disqus_thread</comments>
@@ -51,6 +57,8 @@
       
       <category domain="https://blog.eeymoo.com/categories/JavaScript/">JavaScript</category>
       
+      
+      <category domain="https://blog.eeymoo.com/tags/JavaScript/">JavaScript</category>
       
       <category domain="https://blog.eeymoo.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/">性能优化</category>
       
@@ -78,6 +86,8 @@
       
       <category domain="https://blog.eeymoo.com/categories/JavaScript/">JavaScript</category>
       
+      
+      <category domain="https://blog.eeymoo.com/tags/JavaScript/">JavaScript</category>
       
       <category domain="https://blog.eeymoo.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/">性能优化</category>
       
@@ -108,6 +118,10 @@
       <content:encoded><![CDATA[<p>昨天的面试中出现了一个题目：</p><blockquote><p>将 对象 <code>&#123;6: 46, 8: 23, 14: 5, 10: 3&#125;</code> 按照值的顺序排列。</p></blockquote><p>由于做开始他说的一个数组，说这个题的时候我以为是类数组对象，结果是是如上的对象，排序嘛，（不考虑时间复杂度和空间复杂度的话）基本上没什么难度， 但是一直有一个疑惑在脑中，Object 不是无序的吗？</p><blockquote><p>本文主要探讨不同的 <em>Object</em> 定义方式（或者说声明方式）是否影响”<em>Object</em> 顺序“，”<em>Object</em> 顺序“是什么样的，以及常见处理”Object顺序“的方式。</p></blockquote><p>首先再次之前我的认为是”对象是无序的，数组是有序的，如果处理对象的顺序的话，还是使用数组对象<code>[&#123;key, value&#125;]</code>的方式“ 。</p><p>在 <a href="https://www.ecma-international.org/wp-content/uploads/ECMA-262_3rd_edition_december_1999.pdf">ECMA-262_3rd_edition_december_1999</a> 中有提到：</p><blockquote><p>4.3.3 Object<br>An <strong>object</strong> is a member of the type <strong>Object</strong>. It is an unordered collection of properties each of which contains a primitive value, object, or function. A function stored in a property of an object is called a method.</p></blockquote><p>也就是在 ES3 中是 Objiect 是乱序的，但是在 ES6 中逐渐开始在 Object 的中开始添加 Object 部分放的顺序之说。</p><p>不同浏览器在处理 <code>for...in</code> 时的解析顺序时不同的，在 Chrome 和 Opera 中遵循的是 <strong>ECMA-262</strong> 第五版本规范，而在 Firefox 和 Safari遵循的是 <strong>ECMA-262</strong>  第三版本规范。</p><p>在通常情况下，如果要处理对象的排序，我建议使用数组处理，也就是将对象处理为 <code>[&#123; key, value &#125;]</code> 这样的的数组形式，按照数组排序，因为我还是觉得对象是无序的，尽管他是按照一定的顺序排序的，但为了避免在不同的浏览器中的排序不同还是将他作为数组处理比较好。</p><h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><ol><li><a href="http://jartto.wang/2016/10/25/does-js-guarantee-object-property-order/">js能够保证object属性的输出顺序吗？ - Jartto’s blog</a></li><li><a href="https://stackoverflow.com/questions/5525795/does-javascript-guarantee-object-property-order">Does JavaScript guarantee object property order? - Stack Overflow</a></li><li><a href="https://www.ecma-international.org/wp-content/uploads/ECMA-262_3rd_edition_december_1999.pdf">ECMA-262_3rd_edition_december_1999</a></li></ol>]]></content:encoded>
       
       
+      <category domain="https://blog.eeymoo.com/categories/JavaScript/">JavaScript</category>
+      
+      
+      <category domain="https://blog.eeymoo.com/tags/JavaScript/">JavaScript</category>
       
       
       <comments>https://blog.eeymoo.com/post/exploration-on-object-order-in-javascript.html#disqus_thread</comments>
@@ -136,7 +150,7 @@
       
       <category domain="https://blog.eeymoo.com/tags/DevOps/">DevOps</category>
       
-      <category domain="https://blog.eeymoo.com/tags/Github-Actions/">Github Actions</category>
+      <category domain="https://blog.eeymoo.com/tags/GitHub-Actions/">GitHub_Actions</category>
       
       
       <comments>https://blog.eeymoo.com/post/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html#disqus_thread</comments>
@@ -168,7 +182,7 @@
       
       <category domain="https://blog.eeymoo.com/tags/CSS/">CSS</category>
       
-      <category domain="https://blog.eeymoo.com/tags/WEB-%E6%A0%87%E5%87%86/">WEB 标准</category>
+      <category domain="https://blog.eeymoo.com/tags/WEB-%E6%A0%87%E5%87%86/">WEB_标准</category>
       
       
       <comments>https://blog.eeymoo.com/post/talk-about-css-selector-priority-calculation-rules.html#disqus_thread</comments>

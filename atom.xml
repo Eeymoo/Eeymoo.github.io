@@ -6,7 +6,7 @@
   <link href="https://blog.eeymoo.com/atom.xml" rel="self"/>
   
   <link href="https://blog.eeymoo.com/"/>
-  <updated>2026-01-12T04:04:02.700Z</updated>
+  <updated>2026-01-06T03:54:34.000Z</updated>
   <id>https://blog.eeymoo.com/</id>
   
   <author>
@@ -33,6 +33,12 @@
     
     
     
+    <category term="DevOps" scheme="https://blog.eeymoo.com/categories/DevOps/"/>
+    
+    
+    <category term="DevOps" scheme="https://blog.eeymoo.com/tags/DevOps/"/>
+    
+    <category term="GitHub_Actions" scheme="https://blog.eeymoo.com/tags/GitHub-Actions/"/>
     
   </entry>
   
@@ -54,6 +60,8 @@
     
     <category term="JavaScript" scheme="https://blog.eeymoo.com/categories/JavaScript/"/>
     
+    
+    <category term="JavaScript" scheme="https://blog.eeymoo.com/tags/JavaScript/"/>
     
     <category term="性能优化" scheme="https://blog.eeymoo.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
     
@@ -79,6 +87,8 @@
     
     <category term="JavaScript" scheme="https://blog.eeymoo.com/categories/JavaScript/"/>
     
+    
+    <category term="JavaScript" scheme="https://blog.eeymoo.com/tags/JavaScript/"/>
     
     <category term="性能优化" scheme="https://blog.eeymoo.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
     
@@ -107,6 +117,10 @@
     
     
     
+    <category term="JavaScript" scheme="https://blog.eeymoo.com/categories/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://blog.eeymoo.com/tags/JavaScript/"/>
     
   </entry>
   
@@ -133,7 +147,7 @@
     
     <category term="DevOps" scheme="https://blog.eeymoo.com/tags/DevOps/"/>
     
-    <category term="Github Actions" scheme="https://blog.eeymoo.com/tags/Github-Actions/"/>
+    <category term="GitHub_Actions" scheme="https://blog.eeymoo.com/tags/GitHub-Actions/"/>
     
   </entry>
   
@@ -163,7 +177,7 @@
     
     <category term="CSS" scheme="https://blog.eeymoo.com/tags/CSS/"/>
     
-    <category term="WEB 标准" scheme="https://blog.eeymoo.com/tags/WEB-%E6%A0%87%E5%87%86/"/>
+    <category term="WEB_标准" scheme="https://blog.eeymoo.com/tags/WEB-%E6%A0%87%E5%87%86/"/>
     
   </entry>
   
