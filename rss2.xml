@@ -9,8 +9,30 @@
     <atom:link href="https://blog.eeymoo.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Eeymoo&#39; BLOG 记录 Eeymoo 的 BLOG</description>
-    <pubDate>Tue, 06 Jan 2026 03:54:34 GMT</pubDate>
+    <pubDate>Tue, 13 Jan 2026 01:34:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>2026 博客改造重启计划</title>
+      <link>https://blog.eeymoo.com/post/2026-blog-reconstruction-restart-plan.html</link>
+      <guid>https://blog.eeymoo.com/post/2026-blog-reconstruction-restart-plan.html</guid>
+      <pubDate>Tue, 13 Jan 2026 01:34:20 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;改用 &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt; 生成模板以支持 mdx，&lt;br&gt;仓库地址：&lt;a href=&quot;https://github.com/Eeymoo/obsidian2astro-template&quot;&gt;https://gith</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>改用 <a href="https://astro.build/">Astro</a> 生成模板以支持 mdx，<br>仓库地址：<a href="https://github.com/Eeymoo/obsidian2astro-template">https://github.com/Eeymoo/obsidian2astro-template</a></p><p>路线：</p><ul><li><input disabled="" type="checkbox"> 固定路由使用固定方法实现配置优化</li><li><input disabled="" type="checkbox"> 更具现代化方案</li></ul>]]></content:encoded>
+      
+      
+      
+      
+      <comments>https://blog.eeymoo.com/post/2026-blog-reconstruction-restart-plan.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2026 年最新！Obsidian + Github Pages + Github Actions 自动化部署博客全攻略</title>

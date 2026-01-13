@@ -6,7 +6,7 @@
   <link href="https://blog.eeymoo.com/atom.xml" rel="self"/>
   
   <link href="https://blog.eeymoo.com/"/>
-  <updated>2026-01-06T03:54:34.000Z</updated>
+  <updated>2026-01-13T01:34:20.000Z</updated>
   <id>https://blog.eeymoo.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2026 博客改造重启计划</title>
+    <link href="https://blog.eeymoo.com/post/2026-blog-reconstruction-restart-plan.html"/>
+    <id>https://blog.eeymoo.com/post/2026-blog-reconstruction-restart-plan.html</id>
+    <published>2026-01-13T01:34:20.000Z</published>
+    <updated>2026-01-13T01:34:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>改用 <a href="https://astro.build/">Astro</a> 生成模板以支持 mdx，<br>仓库地址：<a href="https://github.com/Eeymoo/obsidian2astro-template">https://github.com/Eeymoo/obsidian2astro-template</a></p><p>路线：</p><ul><li><input disabled="" type="checkbox"> 固定路由使用固定方法实现配置优化</li><li><input disabled="" type="checkbox"> 更具现代化方案</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;改用 &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt; 生成模板以支持 mdx，&lt;br&gt;仓库地址：&lt;a href=&quot;https://github.com/Eeymoo/obsidian2astro-template&quot;&gt;https://gith</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>2026 年最新！Obsidian + Github Pages + Github Actions 自动化部署博客全攻略</title>

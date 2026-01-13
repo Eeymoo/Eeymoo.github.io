@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>2026 博客改造重启计划</title>
+      <link href="/post/2026-blog-reconstruction-restart-plan.html"/>
+      <url>/post/2026-blog-reconstruction-restart-plan.html</url>
+      
+        <content type="html"><![CDATA[<p>改用 <a href="https://astro.build/">Astro</a> 生成模板以支持 mdx，<br>仓库地址：<a href="https://github.com/Eeymoo/obsidian2astro-template">https://github.com/Eeymoo/obsidian2astro-template</a></p><p>路线：</p><ul><li><input disabled="" type="checkbox"> 固定路由使用固定方法实现配置优化</li><li><input disabled="" type="checkbox"> 更具现代化方案</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2026 年最新！Obsidian + Github Pages + Github Actions 自动化部署博客全攻略</title>
       <link href="/post/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html"/>
       <url>/post/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html</url>
