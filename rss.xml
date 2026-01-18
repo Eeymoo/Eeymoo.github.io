@@ -8,7 +8,7 @@
 - [x] 将 Front-matter 提取为组件
 - [ ] ~~替换 关于 页面~~
 - [x] 开发 友情链接 页面
-- [x] 开发</description><pubDate>Tue, 13 Jan 2026 01:34:20 GMT</pubDate><category>博客</category></item><item><title>如何基于NR+ELECTRON实现跨PC+移动端的项目</title><link>https://blog.eeymoo.com/post/temporary-url/12e57d24d0c6ef21bee76fa352d579e6.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/12e57d24d0c6ef21bee76fa352d579e6.html</guid><description>This post has no description.</description><pubDate>Wed, 07 Jan 2026 09:16:55 GMT</pubDate><category>跨平台</category></item><item><title>2026 年 全新开始吧</title><link>https://blog.eeymoo.com/post/temporary-url/a31059af98e920d372c30d07a609b00b.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/a31059af98e920d372c30d07a609b00b.html</guid><description>2025年我的年度词语是颓废，2025年的几乎一整年都在福建参与宁德时代的项目，项目其实不是十分好，在我看来项目十分混乱，几乎如同小组作业似的乱七八糟，我也是十分颓废，我的2025年的规划是减肥，但是到达年中后，5到6月开始停滞不前，尤其是在9月10月，减肥开始出现了倒退，在年底，我的体重重回了2025年初的体重105kg，其他的flags，也是同时并没有任何进展，比如说增加学习时间等等，在早期还</description><pubDate>Fri, 09 Jan 2026 05:53:57 GMT</pubDate><category>年终总结</category></item><item><title>序</title><link>https://blog.eeymoo.com/post/temporary-url/67153edd77eef29b6419d8a996d7a672.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/67153edd77eef29b6419d8a996d7a672.html</guid><description>设计模式通常是一种编程思想，常见的设计模式是对常见开发模式的总结归纳。它如同算法并不局限于某一种单一的编程语言，只要你对它理解透彻，那你在任何语言中都可以随心所欲的使用。
+- [x] 开发</description><pubDate>Tue, 13 Jan 2026 01:34:20 GMT</pubDate><category>博客</category></item><item><title>2026 年 全新开始吧</title><link>https://blog.eeymoo.com/post/temporary-url/a31059af98e920d372c30d07a609b00b.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/a31059af98e920d372c30d07a609b00b.html</guid><description>2025年我的年度词语是颓废，2025年的几乎一整年都在福建参与宁德时代的项目，项目其实不是十分好，在我看来项目十分混乱，几乎如同小组作业似的乱七八糟，我也是十分颓废，我的2025年的规划是减肥，但是到达年中后，5到6月开始停滞不前，尤其是在9月10月，减肥开始出现了倒退，在年底，我的体重重回了2025年初的体重105kg，其他的flags，也是同时并没有任何进展，比如说增加学习时间等等，在早期还</description><pubDate>Fri, 09 Jan 2026 05:53:57 GMT</pubDate><category>年终总结</category></item><item><title>如何基于NR+ELECTRON实现跨PC+移动端的项目</title><link>https://blog.eeymoo.com/post/temporary-url/12e57d24d0c6ef21bee76fa352d579e6.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/12e57d24d0c6ef21bee76fa352d579e6.html</guid><description>This post has no description.</description><pubDate>Wed, 07 Jan 2026 09:16:55 GMT</pubDate><category>跨平台</category></item><item><title>序</title><link>https://blog.eeymoo.com/post/temporary-url/67153edd77eef29b6419d8a996d7a672.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/67153edd77eef29b6419d8a996d7a672.html</guid><description>设计模式通常是一种编程思想，常见的设计模式是对常见开发模式的总结归纳。它如同算法并不局限于某一种单一的编程语言，只要你对它理解透彻，那你在任何语言中都可以随心所欲的使用。
 
 1995 年，GoF（Gang of Four，四人组/四人帮）合作出版了《设计模式：可复用面向对象软件的基础》一书，共收录了 23 种设计模式，从此树立了软件设计模式领域的里程碑，人称「GoF设计模式」。
 
@@ -38,19 +38,19 @@
 
 由于做开始他说的一个数组，说这个题的时候我以为是类数组对象，结果是是如上的对象，排序嘛，（不考虑时间复杂度和空间复杂度的话）基本上没什么难度， 但是一直有一个疑惑在脑中，Object 不是无序的吗？
 
-&gt; 本文主要探讨不同的 *Object* 定义方式（或者说声明方式）</description><pubDate>Fri, 18 Aug 2023 17:47:53 GMT</pubDate><category>JavaScript</category></item><item><title>手写 Promise</title><link>https://blog.eeymoo.com/post/temporary-url/32079d1ae34929e9fc1feef270295364.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/32079d1ae34929e9fc1feef270295364.html</guid><description>![[手写 Promise 2023-09-10 19.39.19.excalidraw]]
+&gt; 本文主要探讨不同的 *Object* 定义方式（或者说声明方式）</description><pubDate>Fri, 18 Aug 2023 17:47:53 GMT</pubDate><category>JavaScript</category></item><item><title>数组交集判断的性能优化：从双循环到双指针的多种方法</title><link>https://blog.eeymoo.com/post/shu-zu-shi-fou-cun-zai-jiao-ji-de-xing-neng-you-hua-wen-ti-z1kwfix.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/shu-zu-shi-fou-cun-zai-jiao-ji-de-xing-neng-you-hua-wen-ti-z1kwfix.html</guid><description># 数组是否存在交集的性能优化问题
+
+&gt; 本文使用 `gpt-3.5-turbo`​ 协助完成。
+
+在项目中出现一个这样的权限判断逻辑，存在两个数组，一个是后端返回的所有权限数组，另一个是前端代码中存在的按钮权限数组，我们要判断这两个数组是否存在交集合，如果存在交集就说明具备这个按钮的权限，这个按钮就可以展示。
+
+遇到数组交集的判断存在几种复杂或者简单的思路，一种是硬计算，使用双 for 循环判断</description><pubDate>Tue, 31 Dec 2024 16:47:50 GMT</pubDate><category>性能优化</category><category>开发技巧</category><category>JavaScript</category></item><item><title>手写 Promise</title><link>https://blog.eeymoo.com/post/temporary-url/32079d1ae34929e9fc1feef270295364.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/32079d1ae34929e9fc1feef270295364.html</guid><description>![[手写 Promise 2023-09-10 19.39.19.excalidraw]]
 
 
 
 ### 参考文献
 
 1. [Promise A+ 规范 中文版](https://malcolmyu.github.io/2015/06/12/Promises-A-Plus/)</description><pubDate>Mon, 18 Sep 2023 09:48:43 GMT</pubDate><category>Promise</category><category>手写代码</category></item><item><title>数组交集判断的性能优化：从双循环到双指针的多种方法</title><link>https://blog.eeymoo.com/post/shu-zu-shi-fou-cun-zai-jiao-ji-de-xing-neng-you-hua-wen-ti-z1kwfix.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/shu-zu-shi-fou-cun-zai-jiao-ji-de-xing-neng-you-hua-wen-ti-z1kwfix.html</guid><description># 数组是否存在交集的性能优化问题
-
-&gt; 本文使用 `gpt-3.5-turbo`​ 协助完成。
-
-在项目中出现一个这样的权限判断逻辑，存在两个数组，一个是后端返回的所有权限数组，另一个是前端代码中存在的按钮权限数组，我们要判断这两个数组是否存在交集合，如果存在交集就说明具备这个按钮的权限，这个按钮就可以展示。
-
-遇到数组交集的判断存在几种复杂或者简单的思路，一种是硬计算，使用双 for 循环判断</description><pubDate>Tue, 31 Dec 2024 16:47:50 GMT</pubDate><category>性能优化</category><category>开发技巧</category><category>JavaScript</category></item><item><title>数组交集判断的性能优化：从双循环到双指针的多种方法</title><link>https://blog.eeymoo.com/post/shu-zu-shi-fou-cun-zai-jiao-ji-de-xing-neng-you-hua-wen-ti-z1kwfix.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/shu-zu-shi-fou-cun-zai-jiao-ji-de-xing-neng-you-hua-wen-ti-z1kwfix.html</guid><description># 数组是否存在交集的性能优化问题
 
 &gt; 本文使用 `gpt-3.5-turbo`​ 协助完成。
 
