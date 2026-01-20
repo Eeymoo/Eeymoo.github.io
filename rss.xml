@@ -19,7 +19,15 @@
 
 “余孽，还不束手就擒！”
 
-声落，人影从二楼窗口飞出，重重砸在雪地里。血喷出来，染红一片白</description><pubDate>Mon, 19 Jan 2026 12:15:50 GMT</pubDate><category>AICG</category><category>小说</category></item><item><title>晚来风急</title><link>https://blog.eeymoo.com/post/late-coming-wind-is-urgent.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/late-coming-wind-is-urgent.html</guid><description>&gt; AICG
+声落，人影从二楼窗口飞出，重重砸在雪地里。血喷出来，染红一片白</description><pubDate>Mon, 19 Jan 2026 12:15:50 GMT</pubDate><category>AICG</category><category>小说</category></item><item><title>寒刃鸣</title><link>https://blog.eeymoo.com/post/cold-blade-sings.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/cold-blade-sings.html</guid><description>冷雨。
+
+冷雨打在静尘寺的青瓦上，溅起细碎的水花，像极了昨夜执法堂外那些压抑的抽泣。
+
+林寒缩在山门外的老槐树下，蓑衣上的水珠顺着草绳往下淌，浸得他后背发僵。他刚逃离静尘寺，逃离了那个号称“清肃武林，还天地清明”的名门正派。
+
+静尘寺的规矩，比这山间的寒石还硬。
+
+寺规第一条：凡入山门者，须断七情，绝六欲，不沾俗世烟火。第二条：凡遇“浊世之徒”，不问缘由，格杀勿论。第三条：凡违寺规者，以“污清”论</description><pubDate>Mon, 19 Jan 2026 12:13:28 GMT</pubDate><category>AICG</category><category>小说</category></item><item><title>晚来风急</title><link>https://blog.eeymoo.com/post/late-coming-wind-is-urgent.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/late-coming-wind-is-urgent.html</guid><description>&gt; AICG
 
 烟雨阁。
 
@@ -41,15 +49,7 @@
 
 屋里有三个人。
 
-拐子，铁拐刘。木</description><pubDate>Mon, 19 Jan 2026 12:09:47 GMT</pubDate><category>AICG</category><category>小说</category></item><item><title>寒刃鸣</title><link>https://blog.eeymoo.com/post/cold-blade-sings.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/cold-blade-sings.html</guid><description>冷雨。
-
-冷雨打在静尘寺的青瓦上，溅起细碎的水花，像极了昨夜执法堂外那些压抑的抽泣。
-
-林寒缩在山门外的老槐树下，蓑衣上的水珠顺着草绳往下淌，浸得他后背发僵。他刚逃离静尘寺，逃离了那个号称“清肃武林，还天地清明”的名门正派。
-
-静尘寺的规矩，比这山间的寒石还硬。
-
-寺规第一条：凡入山门者，须断七情，绝六欲，不沾俗世烟火。第二条：凡遇“浊世之徒”，不问缘由，格杀勿论。第三条：凡违寺规者，以“污清”论</description><pubDate>Mon, 19 Jan 2026 12:13:28 GMT</pubDate><category>AICG</category><category>小说</category></item><item><title>Function Calling、Agent、MCP、SKILLS 的区别</title><link>https://blog.eeymoo.com/post/differences-between-function-calling-agent-mcp-skills.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/differences-between-function-calling-agent-mcp-skills.html</guid><description>在人工智能工具爆炸的今天，一条清晰技术演进脉络贯穿始终 ——Function Calling 作为 AI 工具的起点，开启了 AI 连接外部工具的大门；接着是被誉为 “人工智能界的 USB” 的 MCP，将工具的调度变成了统一的标准；再到如今新型的 AI 界 “瑞士军刀” 的 SKILLS，集成多元化能力适配复杂场景；乃至作为整体调度的 Agent，统筹各类工具的使用实现价值的最大化。
+拐子，铁拐刘。木</description><pubDate>Mon, 19 Jan 2026 12:09:47 GMT</pubDate><category>AICG</category><category>小说</category></item><item><title>Function Calling、Agent、MCP、SKILLS 的区别</title><link>https://blog.eeymoo.com/post/differences-between-function-calling-agent-mcp-skills.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/differences-between-function-calling-agent-mcp-skills.html</guid><description>在人工智能工具爆炸的今天，一条清晰技术演进脉络贯穿始终 ——Function Calling 作为 AI 工具的起点，开启了 AI 连接外部工具的大门；接着是被誉为 “人工智能界的 USB” 的 MCP，将工具的调度变成了统一的标准；再到如今新型的 AI 界 “瑞士军刀” 的 SKILLS，集成多元化能力适配复杂场景；乃至作为整体调度的 Agent，统筹各类工具的使用实现价值的最大化。
 
 这四个里</description><pubDate>Wed, 14 Jan 2026 03:42:35 GMT</pubDate><category>人工智能</category></item><item><title>Obsidian + Hexo + Github Pages + Github Actions 自动化部署博客</title><link>https://blog.eeymoo.com/post/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html</guid><description>当前网页使用 Obsidian 作为编辑器以及知识库，Hexo 作为静态博客框架，也、就是将markdown文档转换为静态 html ，放在 Github 并且部署 Github Pages 上的。
 
@@ -57,9 +57,9 @@
 
 1995 年，GoF（Gang of Four，四人组/四人帮）合作出版了《设计模式：可复用面向对象软件的基础》一书，共收录了 23 种设计模式，从此树立了软件设计模式领域的里程碑，人称「GoF设计模式」。
 
-「GoF设计模式</description><pubDate>Fri, 01 Sep 2023 06:23:54 GMT</pubDate><category>设计模式</category></item><item><title>目录</title><link>https://blog.eeymoo.com/post/temporary-url/cd6392e559b722a93777cb24232d1be5.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/cd6392e559b722a93777cb24232d1be5.html</guid><description>1. [序](https://www.7zmonkey.tech/blog/233601af6e0a.html)
+「GoF设计模式</description><pubDate>Fri, 01 Sep 2023 06:23:54 GMT</pubDate><category>设计模式</category></item><item><title>随心小记01--2026降温</title><link>https://blog.eeymoo.com/post/microblog-c7724e78-37f9-4f2b-97d5-b0fc416aa64a.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/microblog-c7724e78-37f9-4f2b-97d5-b0fc416aa64a.html</guid><description>好冷啊，真不知道小时候没有羽绒服的时候怎么度过的，我依稀记得2008年的半腿高的大雪，去了姥爷家，那时候雪已经扫不动了，只有铁锹铲出的一条小路，只有铁锹宽的小路。</description><pubDate>Tue, 20 Jan 2026 11:57:20 GMT</pubDate><category>microblog</category></item><item><title>目录</title><link>https://blog.eeymoo.com/post/temporary-url/cd6392e559b722a93777cb24232d1be5.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/cd6392e559b722a93777cb24232d1be5.html</guid><description>1. [序](https://www.7zmonkey.tech/blog/233601af6e0a.html)
 2. [目录]()
-3. [单例模式 - 使用闭包完成单例模式开发](https://www.7zmonkey.tech/blog/79b9f490ba99.html)</description><pubDate>Fri, 01 Sep 2023 06:51:47 GMT</pubDate><category>设计模式</category><category>JavaScript</category></item><item><title>随心小记01--2026降温</title><link>https://blog.eeymoo.com/post/microblog-c7724e78-37f9-4f2b-97d5-b0fc416aa64a.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/microblog-c7724e78-37f9-4f2b-97d5-b0fc416aa64a.html</guid><description>好冷啊，真不知道小时候没有羽绒服的时候怎么度过的，我依稀记得2008年的半腿高的大雪，去了姥爷家，那时候雪已经扫不动了，只有铁锹铲出的一条小路，只有铁锹宽的小路。</description><pubDate>Tue, 20 Jan 2026 11:57:20 GMT</pubDate><category>microblog</category></item><item><title>让时间快一点，再快一点！</title><link>https://blog.eeymoo.com/post/temporary-url/6c62eea32e64e8fc37b70bc326db0b58.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/6c62eea32e64e8fc37b70bc326db0b58.html</guid><description>## 一、初识 Speculation Rules API：网页提速的核心方案
+3. [单例模式 - 使用闭包完成单例模式开发](https://www.7zmonkey.tech/blog/79b9f490ba99.html)</description><pubDate>Fri, 01 Sep 2023 06:51:47 GMT</pubDate><category>设计模式</category><category>JavaScript</category></item><item><title>让时间快一点，再快一点！</title><link>https://blog.eeymoo.com/post/temporary-url/6c62eea32e64e8fc37b70bc326db0b58.html</link><guid isPermaLink="true">https://blog.eeymoo.com/post/temporary-url/6c62eea32e64e8fc37b70bc326db0b58.html</guid><description>## 一、初识 Speculation Rules API：网页提速的核心方案
 
 ### 1.1 核心能力：预取（prefetch）vs 预渲染（prerender）（核心区别详解）
 
