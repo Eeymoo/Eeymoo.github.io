@@ -1,0 +1,49 @@
+User-agent: *
+Allow: /
+
+# 禁止爬取临时文件和缓存目录
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /dist/
+
+# 禁止爬取管理页面和私有内容
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_drafts/
+
+# 允许爬取静态资源
+Allow: /src/assets/
+Allow: /public/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /fonts/
+
+# 站点地图
+Sitemap: https://blog.eeymoo.com/sitemap-index.xml
+
+# 特殊爬虫规则
+User-agent: GPTBot
+Disallow: /private/
+Disallow: /admin/
+
+User-agent: Google-Extended
+Disallow: /private/
+Disallow: /admin/
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# 爬取延迟 (Crawl-delay)
+Crawl-delay: 1
