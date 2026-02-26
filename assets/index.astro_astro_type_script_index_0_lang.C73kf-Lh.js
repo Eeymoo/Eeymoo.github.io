@@ -17,7 +17,7 @@ const w="modulepreload",h=function(e){return"/"+e},m={},z=function(t,n,a){let i=
         <span class="font-semibold text-green-600 dark:text-green-400">${u(t.saved)}</span>
       </div>
     </div>
-  `}}function v(e,t){const n=document.getElementById("comparison");if(!n)return;if(e.originalBytes===0&&t.originalBytes===0){n.innerHTML='<p class="text-gray-400 text-center">输入文本后查看对比结果</p>';return}if(e.originalBytes===0||t.originalBytes===0){n.innerHTML='<p class="text-gray-400 text-center">请输入两段文本进行对比</p>';return}const a=e.ratio-t.ratio,i=t.saved-e.saved;let c="",s="";Math.abs(a)<.01?(c="两段文本压缩率相近",s="text-gray-600 dark:text-gray-400"):e.ratio<t.ratio?(c=`文本 A 压缩率更低，比 B 节省 ${u(i)} 空间`,s="text-green-600 dark:text-green-400"):(c=`文本 B 压缩率更低，比 A 节省 ${u(-i)} 空间`,s="text-blue-600 dark:text-blue-400"),n.innerHTML=`
+  `}}function v(e,t){const n=document.getElementById("comparison");if(!n)return;if(e.originalBytes===0&&t.originalBytes===0){n.innerHTML='<p class="text-gray-400 text-center">输入文本后查看对比结果</p>';return}if(e.originalBytes===0||t.originalBytes===0){n.innerHTML='<p class="text-gray-400 text-center">请输入两段文本进行对比</p>';return}const a=e.ratio-t.ratio,i=e.saved-t.saved;let c="",s="";Math.abs(a)<.01?(c="两段文本压缩率相近",s="text-gray-600 dark:text-gray-400"):e.ratio<t.ratio?(c=`文本 A 压缩率更低，比 B 节省 ${u(i)} 空间`,s="text-green-600 dark:text-green-400"):(c=`文本 B 压缩率更低，比 A 节省 ${u(-i)} 空间`,s="text-blue-600 dark:text-blue-400"),n.innerHTML=`
     <div class="text-center space-y-2">
       <p class="${s} font-semibold text-lg">${c}</p>
       <div class="flex justify-center gap-8 text-sm">
