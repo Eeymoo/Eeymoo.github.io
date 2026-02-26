@@ -1,6 +1,6 @@
-import { e as createAstro, c as createComponent, a as renderTemplate, m as maybeRenderHead, u as unescapeHTML, r as renderComponent, F as Fragment, d as addAttribute } from './astro/server.c35b78b.js';
+import { e as createAstro, c as createComponent, a as renderTemplate, m as maybeRenderHead, u as unescapeHTML, r as renderComponent, F as Fragment, d as addAttribute } from './astro/server.66d3024.js';
 import 'piccolore';
-/* empty css              */
+/* empty css                */
 
 var __freeze = Object.freeze;
 var __defProp = Object.defineProperty;

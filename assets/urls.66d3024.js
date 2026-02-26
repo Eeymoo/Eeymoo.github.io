@@ -1,4 +1,4 @@
-import { g as generatePostSlug } from './index.c35b78b2.js';
+import { g as generatePostSlug } from './index.66d30242.js';
 
 function getPostUrl(entry) {
   const slug = generatePostSlug(entry);
