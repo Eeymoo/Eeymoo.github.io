@@ -1,10 +1,10 @@
-import { e as createAstro, c as createComponent, a as renderTemplate, u as unescapeHTML, d as addAttribute, m as maybeRenderHead, r as renderComponent, s as spreadAttributes, g as renderSlot } from './astro/server.66d3024.js';
+import { e as createAstro, c as createComponent, a as renderTemplate, u as unescapeHTML, d as addAttribute, m as maybeRenderHead, r as renderComponent, f as renderScript, k as defineScriptVars, s as spreadAttributes, g as renderSlot } from './astro/server.6e92edd.js';
 import 'piccolore';
 import 'clsx';
-import { a as SITE_TITLE, c as generateColorFromHash } from './index.66d30242.js';
-import { g as globalCssUrl, d as darkModeCssUrl, t as themeColorCssUrl, l as logoCssUrl } from './about.66d3024.js';
+import { a as SITE_TITLE, c as generateColorFromHash } from './index.6e92edd2.js';
+import { g as globalCssUrl, d as darkModeCssUrl, t as themeColorCssUrl, l as logoCssUrl } from './about-1.6e92edd.js';
 
-const FallbackImage = new Proxy({"src":"/assets/blog-placeholder-1.66d3024.jpg","width":960,"height":480,"format":"jpg"}, {
+const FallbackImage = new Proxy({"src":"/assets/blog-placeholder-1.6e92edd.jpg","width":960,"height":480,"format":"jpg"}, {
 						get(target, name, receiver) {
 							if (name === 'clone') {
 								return structuredClone(target);
@@ -17,10 +17,10 @@ const FallbackImage = new Proxy({"src":"/assets/blog-placeholder-1.66d3024.jpg",
 						}
 					});
 
-var __freeze$4 = Object.freeze;
-var __defProp$4 = Object.defineProperty;
-var __template$4 = (cooked, raw) => __freeze$4(__defProp$4(cooked, "raw", { value: __freeze$4(cooked.slice()) }));
-var _a$4, _b;
+var __freeze$3 = Object.freeze;
+var __defProp$3 = Object.defineProperty;
+var __template$3 = (cooked, raw) => __freeze$3(__defProp$3(cooked, "raw", { value: __freeze$3(cooked.slice()) }));
+var _a$3, _b;
 const $$Astro$4 = createAstro("https://blog.eeymoo.com");
 const $$BaseHead = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
@@ -64,7 +64,7 @@ const $$BaseHead = createComponent(($$result, $$props, $$slots) => {
       ]
     });
   }
-  return renderTemplate(_b || (_b = __template$4(['<!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet"', '><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="sitemap" href="/sitemap-index.xml"><link rel="alternate" type="application/rss+xml"', "", '><meta name="generator"', '><!-- Font preloads --><link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin><link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin><!-- Canonical URL --><link rel="canonical"', "><!-- Primary Meta Tags --><title>", '</title><meta name="title"', '><meta name="description"', '><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url"', '><meta property="og:title"', '><meta property="og:description"', '><meta property="og:image"', '><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url"', '><meta property="twitter:title"', '><meta property="twitter:description"', '><meta property="twitter:image"', "><!-- Keywords and Authors -->", '<meta name="author"', "><!-- Article specific meta tags -->", "", "", "", "<!-- Search Engine Directives -->", "", '<meta name="googlebot" content="index, follow"><!-- Additional SEO Meta --><meta name="theme-color" content="#3b82f6"><meta name="msapplication-TileColor" content="#3b82f6"><meta name="application-name"', '><meta name="apple-mobile-web-app-title"', '><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><!-- Referrer Policy --><meta name="referrer" content="strict-origin-when-cross-origin"><!-- Content Type and Language --><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="content-language" content="zh-CN"><meta name="language" content="Chinese"><!-- Additional Open Graph --><meta property="og:locale" content="zh_CN"><meta property="og:site_name"', ">", '<!-- Additional Twitter --><meta name="twitter:creator" content="@eeymoo"><meta name="twitter:site" content="@eeymoo"><!-- Google Site Verification --><meta name="google-site-verification" content="PVxtW6MnJYdBv7MoHJjCTH-Vzotp1gT8_0F67f2hyrc"><!-- Bing Site Verification --><meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE"><!-- Yandex Verification --><meta name="yandex-verification" content="YOUR_YANDEX_VERIFICATION_CODE"><!-- DNS Prefetch for Performance --><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//cdn.simpleicons.org"><link rel="dns-prefetch" href="//www.google-analytics.com"><!-- Preconnect for Critical Resources --><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><!-- Favicon and App Icons --><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><!-- Speculation Rules: allow opt-in prerender/prefetch hints for supporting browsers -->', "<!-- 防止闪烁：在页面加载前设置主题 --><script>", "</script>"])), addAttribute(globalCssUrl, "href"), addAttribute(SITE_TITLE, "title"), addAttribute(new URL("rss.xml", Astro2.site), "href"), addAttribute(Astro2.generator, "content"), addAttribute(canonicalURL, "href"), title, addAttribute(title, "content"), addAttribute(description, "content"), addAttribute(Astro2.url, "content"), addAttribute(title, "content"), addAttribute(description, "content"), addAttribute(new URL(image.src, Astro2.url), "content"), addAttribute(Astro2.url, "content"), addAttribute(title, "content"), addAttribute(description, "content"), addAttribute(new URL(image.src, Astro2.url), "content"), keywordsString && renderTemplate`<meta name="keywords"${addAttribute(keywordsString, "content")}>`, addAttribute(author, "content"), publishedTime && renderTemplate`<meta property="article:published_time"${addAttribute(publishedTime, "content")}>`, modifiedTime && renderTemplate`<meta property="article:modified_time"${addAttribute(modifiedTime, "content")}>`, articleSection && renderTemplate`<meta property="article:section"${addAttribute(articleSection, "content")}>`, keywords.length > 0 && keywords.map((keyword) => renderTemplate`<meta property="article:tag"${addAttribute(keyword, "content")}>`), noindex && renderTemplate`<meta name="robots" content="noindex, nofollow">`, !noindex && renderTemplate`<meta name="robots" content="index, follow">`, addAttribute(SITE_TITLE, "content"), addAttribute(SITE_TITLE, "content"), addAttribute(SITE_TITLE, "content"), publishedTime && renderTemplate`<meta property="article:author"${addAttribute(author, "content")}>`, speculationRulesJSON && renderTemplate(_a$4 || (_a$4 = __template$4(['<script type="speculationrules">', "</script>"])), unescapeHTML(speculationRulesJSON)), unescapeHTML(themeInitScript));
+  return renderTemplate(_b || (_b = __template$3(['<!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet"', '><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="sitemap" href="/sitemap-index.xml"><link rel="alternate" type="application/rss+xml"', "", '><meta name="generator"', '><!-- Font preloads --><link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin><link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin><!-- Canonical URL --><link rel="canonical"', "><!-- Primary Meta Tags --><title>", '</title><meta name="title"', '><meta name="description"', '><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url"', '><meta property="og:title"', '><meta property="og:description"', '><meta property="og:image"', '><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url"', '><meta property="twitter:title"', '><meta property="twitter:description"', '><meta property="twitter:image"', "><!-- Keywords and Authors -->", '<meta name="author"', "><!-- Article specific meta tags -->", "", "", "", "<!-- Search Engine Directives -->", "", '<meta name="googlebot" content="index, follow"><!-- Additional SEO Meta --><meta name="theme-color" content="#3b82f6"><meta name="msapplication-TileColor" content="#3b82f6"><meta name="application-name"', '><meta name="apple-mobile-web-app-title"', '><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><!-- Referrer Policy --><meta name="referrer" content="strict-origin-when-cross-origin"><!-- Content Type and Language --><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="content-language" content="zh-CN"><meta name="language" content="Chinese"><!-- Additional Open Graph --><meta property="og:locale" content="zh_CN"><meta property="og:site_name"', ">", '<!-- Additional Twitter --><meta name="twitter:creator" content="@eeymoo"><meta name="twitter:site" content="@eeymoo"><!-- Google Site Verification --><meta name="google-site-verification" content="PVxtW6MnJYdBv7MoHJjCTH-Vzotp1gT8_0F67f2hyrc"><!-- Bing Site Verification --><meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE"><!-- Yandex Verification --><meta name="yandex-verification" content="YOUR_YANDEX_VERIFICATION_CODE"><!-- DNS Prefetch for Performance --><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//cdn.simpleicons.org"><link rel="dns-prefetch" href="//www.google-analytics.com"><!-- Preconnect for Critical Resources --><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><!-- Favicon and App Icons --><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><!-- Speculation Rules: allow opt-in prerender/prefetch hints for supporting browsers -->', "<!-- 防止闪烁：在页面加载前设置主题 --><script>", "</script>"])), addAttribute(globalCssUrl, "href"), addAttribute(SITE_TITLE, "title"), addAttribute(new URL("rss.xml", Astro2.site), "href"), addAttribute(Astro2.generator, "content"), addAttribute(canonicalURL, "href"), title, addAttribute(title, "content"), addAttribute(description, "content"), addAttribute(Astro2.url, "content"), addAttribute(title, "content"), addAttribute(description, "content"), addAttribute(new URL(image.src, Astro2.url), "content"), addAttribute(Astro2.url, "content"), addAttribute(title, "content"), addAttribute(description, "content"), addAttribute(new URL(image.src, Astro2.url), "content"), keywordsString && renderTemplate`<meta name="keywords"${addAttribute(keywordsString, "content")}>`, addAttribute(author, "content"), publishedTime && renderTemplate`<meta property="article:published_time"${addAttribute(publishedTime, "content")}>`, modifiedTime && renderTemplate`<meta property="article:modified_time"${addAttribute(modifiedTime, "content")}>`, articleSection && renderTemplate`<meta property="article:section"${addAttribute(articleSection, "content")}>`, keywords.length > 0 && keywords.map((keyword) => renderTemplate`<meta property="article:tag"${addAttribute(keyword, "content")}>`), noindex && renderTemplate`<meta name="robots" content="noindex, nofollow">`, !noindex && renderTemplate`<meta name="robots" content="index, follow">`, addAttribute(SITE_TITLE, "content"), addAttribute(SITE_TITLE, "content"), addAttribute(SITE_TITLE, "content"), publishedTime && renderTemplate`<meta property="article:author"${addAttribute(author, "content")}>`, speculationRulesJSON && renderTemplate(_a$3 || (_a$3 = __template$3(['<script type="speculationrules">', "</script>"])), unescapeHTML(speculationRulesJSON)), unescapeHTML(themeInitScript));
 }, "/home/runner/work/obsidian2astro-template/obsidian2astro-template/src/components/BaseHead.astro", void 0);
 
 const config = {
@@ -277,7 +277,7 @@ const $$Footer = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Footer;
   const today = /* @__PURE__ */ new Date();
-  const version = "66d3024";
+  const version = "6e92edd";
   let versionLink = "https://github.com/Eeymoo/obsidian2astro-template/tree/7cae16f";
   let versionHash = "dev";
   {
@@ -294,26 +294,436 @@ const $$Footer = createComponent(($$result, $$props, $$slots) => {
 Built on <a class="no-underline!"${addAttribute(processedVersionLink, "href")} target="_blank">obsidian2astro-template<span class="version-hash"${addAttribute(`color: ${hashColor};`, "style")}${addAttribute(hashColor, "data-hash-color")}>#${versionHash}</span></a> / <a class="no-underline!"${addAttribute(astroLink, "href")} target="_blank">Astro</a> </div> <div class="social-links flex justify-center gap-4 mt-4"> <a${addAttribute(githubLink, "href")} target="_blank" class="no-underline text-gray-500 dark:text-gray-400 hover:bg-primary/10 dark:hover:bg-primary/20 p-2 rounded transition-colors"> <span class="sr-only">Go to Eeymoo's GitHub</span> <svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" astro-icon="social/github"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg> </a> </div> </div> <div> ${renderComponent($$result, "FooterLinks", $$FooterLinks, { "links": config.friendlyLink })} </div> </footer>`;
 }, "/home/runner/work/obsidian2astro-template/obsidian2astro-template/src/components/Footer.astro", void 0);
 
-const darkModeScriptUrl = "/assets/index.66d3024.ts";
-
-var __freeze$3 = Object.freeze;
-var __defProp$3 = Object.defineProperty;
-var __template$3 = (cooked, raw) => __freeze$3(__defProp$3(cooked, "raw", { value: __freeze$3(cooked.slice()) }));
-var _a$3;
 const $$DarkModeButton = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate(_a$3 || (_a$3 = __template$3(['<link rel="stylesheet"', '><script type="module"', "><\/script>", '<button id="theme-toggle" type="button" class="text-slate-700 hover:bg-primary/10 p-2 rounded transition-colors dark:text-slate-300 dark:hover:bg-primary/20 relative z-[1001]" aria-label="Cycle theme (auto, light, dark)" data-theme="auto"> <svg xmlns="http://www.w3.org/2000/svg" class="size-6 auto-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"></path> </svg> <svg xmlns="http://www.w3.org/2000/svg" class="size-6 sun-icon hidden" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"></path> </svg> <svg xmlns="http://www.w3.org/2000/svg" class="size-6 moon-icon hidden" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"></path> </svg> </button> <div id="theme-transition-circle" class="theme-transition-circle"></div>'])), addAttribute(darkModeCssUrl, "href"), addAttribute(darkModeScriptUrl, "src"), maybeRenderHead());
+  return renderTemplate`<link rel="stylesheet"${addAttribute(darkModeCssUrl, "href")}>${maybeRenderHead()}<button id="theme-toggle" type="button" class="text-slate-700 hover:bg-primary/10 p-2 rounded transition-colors dark:text-slate-300 dark:hover:bg-primary/20 relative z-[1001]" aria-label="Cycle theme (auto, light, dark)" data-theme="auto"> <svg xmlns="http://www.w3.org/2000/svg" class="size-6 auto-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"></path> </svg> <svg xmlns="http://www.w3.org/2000/svg" class="size-6 sun-icon hidden" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"></path> </svg> <svg xmlns="http://www.w3.org/2000/svg" class="size-6 moon-icon hidden" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"></path> </svg> </button> <div id="theme-transition-circle" class="theme-transition-circle"></div> ${renderScript($$result, "/home/runner/work/obsidian2astro-template/obsidian2astro-template/src/components/DarkModeButton.astro?astro&type=script&index=0&lang.ts")}`;
 }, "/home/runner/work/obsidian2astro-template/obsidian2astro-template/src/components/DarkModeButton.astro", void 0);
-
-const themeColorScriptUrl = "/assets/index.66d30242.ts";
 
 var __freeze$2 = Object.freeze;
 var __defProp$2 = Object.defineProperty;
-var __template$2 = (cooked, raw) => __freeze$2(__defProp$2(cooked, "raw", { value: __freeze$2(cooked.slice()) }));
+var __template$2 = (cooked, raw) => __freeze$2(__defProp$2(cooked, "raw", { value: __freeze$2(raw || cooked.slice()) }));
 var _a$2;
-const $$ThemeColorButton = createComponent(($$result, $$props, $$slots) => {
-  const version = "66d3024";
+const $$ThemeColorButton = createComponent(async ($$result, $$props, $$slots) => {
+  const version = "6e92edd";
   const versionHash = version ;
-  return renderTemplate(_a$2 || (_a$2 = __template$2(['<link rel="stylesheet"', '><script type="module"', "", "></script>", '<button id="theme-color-toggle" type="button" class="w-10 h-10 flex items-center justify-center text-slate-700 hover:bg-primary/10 p-2 rounded transition-colors dark:text-slate-300 dark:hover:bg-primary/20 relative z-[1001]" aria-label="Cycle theme color (default, git hash)" data-color-theme="default"> <!-- 调色板图标 --> <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M4.098 19.902a3.75 3.75 0 0 0 5.304 0l6.401-6.402M6.75 21A3.75 3.75 0 0 1 3 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 0 0 3.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008Z"></path> </svg> <!-- 颜色指示器 --> <span class="color-indicator"></span> </button> <!-- 主题色过渡圆形（用于点击切换） --> <div id="theme-color-transition-circle"></div> <!-- 主题色扫描过渡层（用于首次加载调整） --> <div id="theme-color-sweep-overlay" class="theme-sweep-overlay"></div>'])), addAttribute(themeColorCssUrl, "href"), addAttribute(themeColorScriptUrl, "src"), addAttribute(versionHash, "data-version-hash"), maybeRenderHead());
+  return renderTemplate(_a$2 || (_a$2 = __template$2(['<link rel="stylesheet"', ">", '<button id="theme-color-toggle" type="button" class="w-10 h-10 flex items-center justify-center text-slate-700 hover:bg-primary/10 p-2 rounded transition-colors dark:text-slate-300 dark:hover:bg-primary/20 relative z-[1001]" aria-label="Cycle theme color (default, git hash)" data-color-theme="default"> <!-- 调色板图标 --> <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M4.098 19.902a3.75 3.75 0 0 0 5.304 0l6.401-6.402M6.75 21A3.75 3.75 0 0 1 3 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 0 0 3.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008Z"></path> </svg> <!-- 颜色指示器 --> <span class="color-indicator"></span> </button> <!-- 主题色过渡圆形（用于点击切换） --> <div id="theme-color-transition-circle"></div> <!-- 主题色扫描过渡层（用于首次加载调整） --> <div id="theme-color-sweep-overlay" class="theme-sweep-overlay"></div> <script>(function(){', `
+// 主题色切换功能
+
+function getLuminance(r, g, b) {
+  const [rs, gs, bs] = [r, g, b].map(c => {
+    c = c / 255;
+    return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+  });
+  return 0.2126 * rs + 0.7152 * gs + 0.0722 * bs;
+}
+
+function getContrastRatio(color1, color2) {
+  const l1 = getLuminance(color1.r, color1.g, color1.b);
+  const l2 = getLuminance(color2.r, color2.g, color2.b);
+  const lighter = Math.max(l1, l2);
+  const darker = Math.min(l1, l2);
+  return (lighter + 0.05) / (darker + 0.05);
+}
+
+function hexToRgb(hex) {
+  const result = /^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i.exec(hex);
+  if (!result) return { r: 0, g: 0, b: 0 };
+  return {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  };
+}
+
+function rgbToHex(r, g, b) {
+  return '#' + [r, g, b].map(c => {
+    c = Math.round(Math.max(0, Math.min(255, c)));
+    return c.toString(16).padStart(2, '0');
+  }).join('');
+}
+
+function adjustBrightness(r, g, b, factor) {
+  return {
+    r: Math.min(255, r * factor),
+    g: Math.min(255, g * factor),
+    b: Math.min(255, b * factor)
+  };
+}
+
+function checkAAContrast(hexColor) {
+  const rgb = hexToRgb(hexColor);
+  const whiteBg = { r: 255, g: 255, b: 255 };
+  const darkBg = { r: 15, g: 23, b: 42 };
+  const AA_RATIO = 4.5;
+  const contrastOnWhite = getContrastRatio(rgb, whiteBg);
+  const contrastOnDark = getContrastRatio(rgb, darkBg);
+  return contrastOnWhite >= AA_RATIO || contrastOnDark >= AA_RATIO;
+}
+
+function ensureAAContrast(hexColor) {
+  const rgb = hexToRgb(hexColor);
+  const whiteBg = { r: 255, g: 255, b: 255 };
+  const darkBg = { r: 15, g: 23, b: 42 };
+  const AA_RATIO = 4.5;
+  let adjustedRgb = { ...rgb };
+  const contrastOnWhite = getContrastRatio(adjustedRgb, whiteBg);
+  const contrastOnDark = getContrastRatio(adjustedRgb, darkBg);
+  
+  if (contrastOnWhite < AA_RATIO && contrastOnDark < AA_RATIO) {
+    const luminance = getLuminance(adjustedRgb.r, adjustedRgb.g, adjustedRgb.b);
+    if (luminance < 0.5) {
+      let factor = 1.1;
+      while (factor <= 3) {
+        const testRgb = adjustBrightness(rgb.r, rgb.g, rgb.b, factor);
+        if (getContrastRatio(testRgb, darkBg) >= AA_RATIO) {
+          adjustedRgb = testRgb;
+          break;
+        }
+        factor += 0.05;
+      }
+    } else {
+      let factor = 0.9;
+      while (factor >= 0.2) {
+        const testRgb = adjustBrightness(rgb.r, rgb.g, rgb.b, factor);
+        if (getContrastRatio(testRgb, whiteBg) >= AA_RATIO) {
+          adjustedRgb = testRgb;
+          break;
+        }
+        factor -= 0.05;
+      }
+    }
+  }
+  return rgbToHex(adjustedRgb.r, adjustedRgb.g, adjustedRgb.b);
+}
+
+const storageKey = "theme-color";
+const firstAdjustKey = "theme-color-first-adjusted";
+const toggle = document.getElementById("theme-color-toggle");
+const root = document.documentElement;
+const transitionCircle = document.getElementById("theme-color-transition-circle");
+const sweepOverlay = document.getElementById("theme-color-sweep-overlay");
+
+const DEFAULT_COLOR = '#8080f7';
+
+function generateColorFromHash(hash) {
+  if (!hash) return '#666666';
+  const hexRegex = /^[0-9a-f]+$/i;
+  if (hexRegex.test(hash) && hash.length >= 6) {
+    return \`#\${hash.substring(0, 6)}\`;
+  }
+  let hashValue = 5381;
+  for (let i = 0; i < hash.length; i++) {
+    hashValue = (hashValue * 33) ^ hash.charCodeAt(i);
+  }
+  const r = (hashValue & 0xFF0000) >> 16;
+  const g = (hashValue & 0x00FF00) >> 8;
+  const b = hashValue & 0x0000FF;
+  const adjust = (c) => Math.floor(100 + (c / 255) * 100).toString(16).padStart(2, '0');
+  return \`#\${adjust(r)}\${adjust(g)}\${adjust(b)}\`;
+}
+
+const rawHashColor = generateColorFromHash(versionHash);
+const needsAdjustment = !checkAAContrast(rawHashColor);
+const HASH_COLOR = needsAdjustment ? ensureAAContrast(rawHashColor) : rawHashColor;
+
+const config = {
+  defaultColor: DEFAULT_COLOR,
+  hashColor: HASH_COLOR,
+  rawHashColor: rawHashColor,
+  needsAdjustment: needsAdjustment
+};
+
+let isAnimating = false;
+
+function applyThemeColor(theme, useRawColor) {
+  useRawColor = useRawColor || false;
+  let color;
+  if (theme === 'default') {
+    color = config.defaultColor;
+  } else {
+    color = useRawColor && config.needsAdjustment ? config.rawHashColor : config.hashColor;
+  }
+  root.style.setProperty('--color-primary', color);
+  toggle?.setAttribute('data-color-theme', theme);
+  const indicator = toggle?.querySelector('.color-indicator');
+  if (indicator) {
+    indicator.style.backgroundColor = color;
+  }
+  const versionHashEl = document.querySelector('.version-hash');
+  if (versionHashEl) {
+    versionHashEl.style.color = config.hashColor;
+  }
+}
+
+function applyWithSweepAnimation(theme, useRawColor) {
+  useRawColor = useRawColor || false;
+  return new Promise((resolve) => {
+    let color = theme === 'default' ? config.defaultColor : (useRawColor && config.needsAdjustment ? config.rawHashColor : config.hashColor);
+    if (sweepOverlay) {
+      sweepOverlay.style.backgroundColor = color;
+      sweepOverlay.classList.add("animate");
+    }
+    setTimeout(() => applyThemeColor(theme, useRawColor), 400);
+    setTimeout(() => {
+      if (sweepOverlay) {
+        sweepOverlay.classList.remove("animate");
+        sweepOverlay.style.backgroundColor = '';
+      }
+      isAnimating = false;
+      resolve();
+    }, 800);
+  });
+}
+
+function loadTheme() {
+  const saved = localStorage.getItem(storageKey);
+  if (!saved) return 'hash';
+  return saved === 'default' ? 'default' : 'hash';
+}
+
+function hasFirstAdjusted() {
+  return localStorage.getItem(firstAdjustKey) === 'true';
+}
+
+function markFirstAdjusted() {
+  localStorage.setItem(firstAdjustKey, 'true');
+}
+
+function cycleTheme(theme) {
+  return theme === 'hash' ? 'default' : 'hash';
+}
+
+// 初始化
+const savedTheme = loadTheme();
+if (savedTheme === 'hash' && config.needsAdjustment && !hasFirstAdjusted()) {
+  applyThemeColor('hash', true);
+  setTimeout(async () => {
+    isAnimating = true;
+    await applyWithSweepAnimation('hash', false);
+    markFirstAdjusted();
+  }, 2000);
+} else {
+  applyThemeColor(savedTheme);
+}
+
+toggle?.addEventListener('click', () => {
+  if (isAnimating) return;
+  isAnimating = true;
+  const currentTheme = toggle.getAttribute('data-color-theme') || 'hash';
+  const nextTheme = cycleTheme(currentTheme);
+  localStorage.setItem(storageKey, nextTheme);
+  applyThemeColor(nextTheme, false);
+  isAnimating = false;
+});
+})();</script>`], ['<link rel="stylesheet"', ">", '<button id="theme-color-toggle" type="button" class="w-10 h-10 flex items-center justify-center text-slate-700 hover:bg-primary/10 p-2 rounded transition-colors dark:text-slate-300 dark:hover:bg-primary/20 relative z-[1001]" aria-label="Cycle theme color (default, git hash)" data-color-theme="default"> <!-- 调色板图标 --> <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M4.098 19.902a3.75 3.75 0 0 0 5.304 0l6.401-6.402M6.75 21A3.75 3.75 0 0 1 3 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 0 0 3.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008Z"></path> </svg> <!-- 颜色指示器 --> <span class="color-indicator"></span> </button> <!-- 主题色过渡圆形（用于点击切换） --> <div id="theme-color-transition-circle"></div> <!-- 主题色扫描过渡层（用于首次加载调整） --> <div id="theme-color-sweep-overlay" class="theme-sweep-overlay"></div> <script>(function(){', `
+// 主题色切换功能
+
+function getLuminance(r, g, b) {
+  const [rs, gs, bs] = [r, g, b].map(c => {
+    c = c / 255;
+    return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+  });
+  return 0.2126 * rs + 0.7152 * gs + 0.0722 * bs;
+}
+
+function getContrastRatio(color1, color2) {
+  const l1 = getLuminance(color1.r, color1.g, color1.b);
+  const l2 = getLuminance(color2.r, color2.g, color2.b);
+  const lighter = Math.max(l1, l2);
+  const darker = Math.min(l1, l2);
+  return (lighter + 0.05) / (darker + 0.05);
+}
+
+function hexToRgb(hex) {
+  const result = /^#?([a-f\\\\d]{2})([a-f\\\\d]{2})([a-f\\\\d]{2})$/i.exec(hex);
+  if (!result) return { r: 0, g: 0, b: 0 };
+  return {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  };
+}
+
+function rgbToHex(r, g, b) {
+  return '#' + [r, g, b].map(c => {
+    c = Math.round(Math.max(0, Math.min(255, c)));
+    return c.toString(16).padStart(2, '0');
+  }).join('');
+}
+
+function adjustBrightness(r, g, b, factor) {
+  return {
+    r: Math.min(255, r * factor),
+    g: Math.min(255, g * factor),
+    b: Math.min(255, b * factor)
+  };
+}
+
+function checkAAContrast(hexColor) {
+  const rgb = hexToRgb(hexColor);
+  const whiteBg = { r: 255, g: 255, b: 255 };
+  const darkBg = { r: 15, g: 23, b: 42 };
+  const AA_RATIO = 4.5;
+  const contrastOnWhite = getContrastRatio(rgb, whiteBg);
+  const contrastOnDark = getContrastRatio(rgb, darkBg);
+  return contrastOnWhite >= AA_RATIO || contrastOnDark >= AA_RATIO;
+}
+
+function ensureAAContrast(hexColor) {
+  const rgb = hexToRgb(hexColor);
+  const whiteBg = { r: 255, g: 255, b: 255 };
+  const darkBg = { r: 15, g: 23, b: 42 };
+  const AA_RATIO = 4.5;
+  let adjustedRgb = { ...rgb };
+  const contrastOnWhite = getContrastRatio(adjustedRgb, whiteBg);
+  const contrastOnDark = getContrastRatio(adjustedRgb, darkBg);
+  
+  if (contrastOnWhite < AA_RATIO && contrastOnDark < AA_RATIO) {
+    const luminance = getLuminance(adjustedRgb.r, adjustedRgb.g, adjustedRgb.b);
+    if (luminance < 0.5) {
+      let factor = 1.1;
+      while (factor <= 3) {
+        const testRgb = adjustBrightness(rgb.r, rgb.g, rgb.b, factor);
+        if (getContrastRatio(testRgb, darkBg) >= AA_RATIO) {
+          adjustedRgb = testRgb;
+          break;
+        }
+        factor += 0.05;
+      }
+    } else {
+      let factor = 0.9;
+      while (factor >= 0.2) {
+        const testRgb = adjustBrightness(rgb.r, rgb.g, rgb.b, factor);
+        if (getContrastRatio(testRgb, whiteBg) >= AA_RATIO) {
+          adjustedRgb = testRgb;
+          break;
+        }
+        factor -= 0.05;
+      }
+    }
+  }
+  return rgbToHex(adjustedRgb.r, adjustedRgb.g, adjustedRgb.b);
+}
+
+const storageKey = "theme-color";
+const firstAdjustKey = "theme-color-first-adjusted";
+const toggle = document.getElementById("theme-color-toggle");
+const root = document.documentElement;
+const transitionCircle = document.getElementById("theme-color-transition-circle");
+const sweepOverlay = document.getElementById("theme-color-sweep-overlay");
+
+const DEFAULT_COLOR = '#8080f7';
+
+function generateColorFromHash(hash) {
+  if (!hash) return '#666666';
+  const hexRegex = /^[0-9a-f]+$/i;
+  if (hexRegex.test(hash) && hash.length >= 6) {
+    return \\\`#\\\${hash.substring(0, 6)}\\\`;
+  }
+  let hashValue = 5381;
+  for (let i = 0; i < hash.length; i++) {
+    hashValue = (hashValue * 33) ^ hash.charCodeAt(i);
+  }
+  const r = (hashValue & 0xFF0000) >> 16;
+  const g = (hashValue & 0x00FF00) >> 8;
+  const b = hashValue & 0x0000FF;
+  const adjust = (c) => Math.floor(100 + (c / 255) * 100).toString(16).padStart(2, '0');
+  return \\\`#\\\${adjust(r)}\\\${adjust(g)}\\\${adjust(b)}\\\`;
+}
+
+const rawHashColor = generateColorFromHash(versionHash);
+const needsAdjustment = !checkAAContrast(rawHashColor);
+const HASH_COLOR = needsAdjustment ? ensureAAContrast(rawHashColor) : rawHashColor;
+
+const config = {
+  defaultColor: DEFAULT_COLOR,
+  hashColor: HASH_COLOR,
+  rawHashColor: rawHashColor,
+  needsAdjustment: needsAdjustment
+};
+
+let isAnimating = false;
+
+function applyThemeColor(theme, useRawColor) {
+  useRawColor = useRawColor || false;
+  let color;
+  if (theme === 'default') {
+    color = config.defaultColor;
+  } else {
+    color = useRawColor && config.needsAdjustment ? config.rawHashColor : config.hashColor;
+  }
+  root.style.setProperty('--color-primary', color);
+  toggle?.setAttribute('data-color-theme', theme);
+  const indicator = toggle?.querySelector('.color-indicator');
+  if (indicator) {
+    indicator.style.backgroundColor = color;
+  }
+  const versionHashEl = document.querySelector('.version-hash');
+  if (versionHashEl) {
+    versionHashEl.style.color = config.hashColor;
+  }
+}
+
+function applyWithSweepAnimation(theme, useRawColor) {
+  useRawColor = useRawColor || false;
+  return new Promise((resolve) => {
+    let color = theme === 'default' ? config.defaultColor : (useRawColor && config.needsAdjustment ? config.rawHashColor : config.hashColor);
+    if (sweepOverlay) {
+      sweepOverlay.style.backgroundColor = color;
+      sweepOverlay.classList.add("animate");
+    }
+    setTimeout(() => applyThemeColor(theme, useRawColor), 400);
+    setTimeout(() => {
+      if (sweepOverlay) {
+        sweepOverlay.classList.remove("animate");
+        sweepOverlay.style.backgroundColor = '';
+      }
+      isAnimating = false;
+      resolve();
+    }, 800);
+  });
+}
+
+function loadTheme() {
+  const saved = localStorage.getItem(storageKey);
+  if (!saved) return 'hash';
+  return saved === 'default' ? 'default' : 'hash';
+}
+
+function hasFirstAdjusted() {
+  return localStorage.getItem(firstAdjustKey) === 'true';
+}
+
+function markFirstAdjusted() {
+  localStorage.setItem(firstAdjustKey, 'true');
+}
+
+function cycleTheme(theme) {
+  return theme === 'hash' ? 'default' : 'hash';
+}
+
+// 初始化
+const savedTheme = loadTheme();
+if (savedTheme === 'hash' && config.needsAdjustment && !hasFirstAdjusted()) {
+  applyThemeColor('hash', true);
+  setTimeout(async () => {
+    isAnimating = true;
+    await applyWithSweepAnimation('hash', false);
+    markFirstAdjusted();
+  }, 2000);
+} else {
+  applyThemeColor(savedTheme);
+}
+
+toggle?.addEventListener('click', () => {
+  if (isAnimating) return;
+  isAnimating = true;
+  const currentTheme = toggle.getAttribute('data-color-theme') || 'hash';
+  const nextTheme = cycleTheme(currentTheme);
+  localStorage.setItem(storageKey, nextTheme);
+  applyThemeColor(nextTheme, false);
+  isAnimating = false;
+});
+})();</script>`])), addAttribute(themeColorCssUrl, "href"), maybeRenderHead(), defineScriptVars({ versionHash }));
 }, "/home/runner/work/obsidian2astro-template/obsidian2astro-template/src/components/ThemeColorButton.astro", void 0);
 
 const searchBoxScriptUrl = "data:video/mp2t;base64,Ly8gc3JjL3NjcmlwdHMvc2VhcmNoLWJveC50cwpleHBvcnQgZnVuY3Rpb24gaW5pdFNlYXJjaEJveCgpIHsKICBjb25zdCBzZWFyY2hJbnB1dCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKAogICAgInNlYXJjaC1pbnB1dCIKICApIGFzIEhUTUxJbnB1dEVsZW1lbnQ7CgogIC8vIEN0cmwgKyBLIOW/q+aNt+mUrgogIGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoImtleWRvd24iLCAoZSkgPT4gewogICAgaWYgKChlLmN0cmxLZXkgfHwgZS5tZXRhS2V5KSAmJiBlLmtleSA9PT0gImsiKSB7CiAgICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgICAgc2VhcmNoSW5wdXQ/LmZvY3VzKCk7CiAgICB9CiAgfSk7CgogIC8vIOWbnui9puaQnOe0ogogIHNlYXJjaElucHV0Py5hZGRFdmVudExpc3RlbmVyKCJrZXlkb3duIiwgKGUpID0+IHsKICAgIGlmIChlLmtleSA9PT0gIkVudGVyIikgewogICAgICBjb25zdCBxdWVyeSA9IHNlYXJjaElucHV0LnZhbHVlLnRyaW0oKTsKICAgICAgaWYgKHF1ZXJ5KSB7CiAgICAgICAgY29uc3Qgc2l0ZVVybCA9IHNlYXJjaElucHV0LmRhdGFzZXQuc2l0ZVVybCB8fCB3aW5kb3cubG9jYXRpb24ub3JpZ2luOwogICAgICAgIGNvbnN0IGhvc3RuYW1lID0gbmV3IFVSTChzaXRlVXJsKS5ob3N0bmFtZTsKICAgICAgICBjb25zdCBzZWFyY2hVcmwgPSBgaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9zZWFyY2g/cT0ke2VuY29kZVVSSUNvbXBvbmVudChxdWVyeSl9K3NpdGU6JHtob3N0bmFtZX1gOwogICAgICAgIHdpbmRvdy5sb2NhdGlvbi5ocmVmID0gc2VhcmNoVXJsOwogICAgICB9CiAgICB9CiAgfSk7CgogIC8vIEVzYyDmuIXnqboKICBzZWFyY2hJbnB1dD8uYWRkRXZlbnRMaXN0ZW5lcigia2V5ZG93biIsIChlKSA9PiB7CiAgICBpZiAoZS5rZXkgPT09ICJFc2NhcGUiKSB7CiAgICAgIHNlYXJjaElucHV0LnZhbHVlID0gIiI7CiAgICAgIHNlYXJjaElucHV0LmJsdXIoKTsKICAgIH0KICB9KTsKfQoKLy8g6Ieq5Yqo5Yid5aeL5YyWCmlmIChkb2N1bWVudC5yZWFkeVN0YXRlID09PSAibG9hZGluZyIpIHsKICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCJET01Db250ZW50TG9hZGVkIiwgaW5pdFNlYXJjaEJveCk7Cn0gZWxzZSB7CiAgaW5pdFNlYXJjaEJveCgpOwp9Cg==";
