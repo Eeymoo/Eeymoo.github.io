@@ -1,10 +1,10 @@
-import { e as createAstro, c as createComponent, a as renderTemplate, u as unescapeHTML, d as addAttribute, m as maybeRenderHead, r as renderComponent, f as renderScript, k as defineScriptVars, s as spreadAttributes, g as renderSlot } from './astro/server.6e92edd.js';
+import { e as createAstro, c as createComponent, a as renderTemplate, u as unescapeHTML, d as addAttribute, m as maybeRenderHead, r as renderComponent, f as renderScript, k as defineScriptVars, s as spreadAttributes, g as renderSlot } from './astro/server.6212a14.js';
 import 'piccolore';
 import 'clsx';
-import { a as SITE_TITLE, c as generateColorFromHash } from './index.6e92edd2.js';
-import { g as globalCssUrl, d as darkModeCssUrl, t as themeColorCssUrl, l as logoCssUrl } from './about-1.6e92edd.js';
+import { a as SITE_TITLE, c as generateColorFromHash } from './index.6212a142.js';
+import { g as globalCssUrl, d as darkModeCssUrl, t as themeColorCssUrl, l as logoCssUrl } from './about-1.6212a14.js';
 
-const FallbackImage = new Proxy({"src":"/assets/blog-placeholder-1.6e92edd.jpg","width":960,"height":480,"format":"jpg"}, {
+const FallbackImage = new Proxy({"src":"/assets/blog-placeholder-1.6212a14.jpg","width":960,"height":480,"format":"jpg"}, {
 						get(target, name, receiver) {
 							if (name === 'clone') {
 								return structuredClone(target);
@@ -277,7 +277,7 @@ const $$Footer = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Footer;
   const today = /* @__PURE__ */ new Date();
-  const version = "6e92edd";
+  const version = "6212a14";
   let versionLink = "https://github.com/Eeymoo/obsidian2astro-template/tree/7cae16f";
   let versionHash = "dev";
   {
@@ -303,7 +303,7 @@ var __defProp$2 = Object.defineProperty;
 var __template$2 = (cooked, raw) => __freeze$2(__defProp$2(cooked, "raw", { value: __freeze$2(raw || cooked.slice()) }));
 var _a$2;
 const $$ThemeColorButton = createComponent(async ($$result, $$props, $$slots) => {
-  const version = "6e92edd";
+  const version = "6212a14";
   const versionHash = version ;
   return renderTemplate(_a$2 || (_a$2 = __template$2(['<link rel="stylesheet"', ">", '<button id="theme-color-toggle" type="button" class="w-10 h-10 flex items-center justify-center text-slate-700 hover:bg-primary/10 p-2 rounded transition-colors dark:text-slate-300 dark:hover:bg-primary/20 relative z-[1001]" aria-label="Cycle theme color (default, git hash)" data-color-theme="default"> <!-- 调色板图标 --> <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M4.098 19.902a3.75 3.75 0 0 0 5.304 0l6.401-6.402M6.75 21A3.75 3.75 0 0 1 3 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 0 0 3.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008Z"></path> </svg> <!-- 颜色指示器 --> <span class="color-indicator"></span> </button> <!-- 主题色过渡圆形（用于点击切换） --> <div id="theme-color-transition-circle"></div> <!-- 主题色扫描过渡层（用于首次加载调整） --> <div id="theme-color-sweep-overlay" class="theme-sweep-overlay"></div> <script>(function(){', `
 // 主题色切换功能
@@ -756,7 +756,7 @@ const $$HeaderLink = createComponent(($$result, $$props, $$slots) => {
 }, "/home/runner/work/obsidian2astro-template/obsidian2astro-template/src/components/HeaderLink.astro", void 0);
 
 const $$Logo = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`<link rel="stylesheet"${addAttribute(logoCssUrl, "href")}>${maybeRenderHead()}<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="4in" height="1.33333in" viewBox="0 0 1200 400" class="no-style inline-block w-42 h-14 mr-1 -mt-1"> <path class="logo-path" stroke="#8080f7" stroke-width="2" d="M 452.00,89.00
+  return renderTemplate`<link rel="stylesheet"${addAttribute(logoCssUrl, "href")}>${maybeRenderHead()}<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="4in" height="1.33333in" viewBox="0 0 1200 400" class="no-style inline-block w-42 h-14 mr-1 -mt-1"> <path class="logo-path" stroke-width="2" d="M 452.00,89.00
            C 441.62,95.95 443.22,97.13 435.99,103.83
              435.99,103.83 414.00,122.67 414.00,122.67
              414.00,122.67 403.00,130.28 403.00,130.28
