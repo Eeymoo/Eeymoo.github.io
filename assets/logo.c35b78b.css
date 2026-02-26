@@ -1,0 +1,1 @@
+@keyframes drawPath{0%{stroke-dashoffset:5000}to{stroke-dashoffset:0}}@keyframes colorFlash{0%{fill:none;stroke:#8080f7}80%{fill:#8080f700;stroke:#8080f7}to{fill:#8080f7;stroke:#8080f7}}.logo-path{stroke-dasharray:5000;animation:drawPath 2.5s ease-in-out forwards,colorFlash 2.5s ease-in-out forwards}
