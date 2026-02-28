@@ -1,0 +1,294 @@
+[
+  {
+    "id": "blog:obsidian-hexo-github-pages-github-actions-auto-deploy-blog",
+    "type": "blog",
+    "title": "Obsidian + Hexo + Github Pages + Github Actions 自动化部署博客",
+    "uri": "/post/obsidian-hexo-github-pages-github-actions-auto-deploy-blog.html",
+    "date": "2023-07-29 12:43:27",
+    "tags": "",
+    "categories": "DevOps",
+    "description": "Obsidian+Hexo自动化部署：GitHub Actions+GitHub Pages静态博客完整教程"
+  },
+  {
+    "id": "blog:optimize-obsidian-github-pages-github-actions-auto-deploy-blog",
+    "type": "blog",
+    "title": "2026 年最新！Obsidian + Github Pages + Github Actions 自动化部署博客全攻略",
+    "uri": "/post/optimize-obsidian-github-pages-github-actions-auto-deploy-blog.html",
+    "date": "2026-01-06 03:54:34",
+    "tags": "",
+    "categories": "DevOps",
+    "description": "博客部署架构优化：解耦Obsidian与模板，repository_dispatch触发实战"
+  },
+  {
+    "id": "blog:claude-code-use-third-party-api",
+    "type": "blog",
+    "title": "Claude Code 使用第三方 API",
+    "uri": "/post/claude-code-use-third-party-api.html",
+    "date": "2026-01-19 07:57:10",
+    "tags": "",
+    "categories": "AI工具",
+    "description": "Claude Code使用第三方API：扩展AI编程助手能力的完整指南"
+  },
+  {
+    "id": "blog:differences-between-function-calling-agent-mcp-skills",
+    "type": "blog",
+    "title": "Function Calling、Agent、MCP、SKILLS 的区别",
+    "uri": "/post/differences-between-function-calling-agent-mcp-skills.html",
+    "date": "2026-01-14 03:42:35",
+    "tags": "",
+    "categories": "人工智能",
+    "description": "Function Calling vs MCP vs SKILLS：AI工具技术演进深度解析"
+  },
+  {
+    "id": "blog:first-time-use-opencode-key-steps",
+    "type": "blog",
+    "title": "首次使用 OpenCode 必知的 5 个关键步骤",
+    "uri": "/post/first-time-use-opencode-key-steps.html",
+    "date": "2026-01-20 10:13:33",
+    "tags": "",
+    "categories": "AICodeing",
+    "description": "初次接触 OpenCode 不知如何下手？这几个关键步骤帮你快速上手，轻松开启编码之旅！点击了解。"
+  },
+  {
+    "id": "blog:2026-blog-reconstruction-restart-plan",
+    "type": "blog",
+    "title": "2026 博客改造重启计划",
+    "uri": "/post/2026-blog-reconstruction-restart-plan.html",
+    "date": "2026-01-13 01:34:20",
+    "tags": "",
+    "categories": "Astro",
+    "description": "2026博客改造计划：从Hexo迁移Astro，支持mdx的现代化重构"
+  },
+  {
+    "id": "blog:global-game",
+    "type": "blog",
+    "title": "全球博弈",
+    "uri": "/post/global-game.html",
+    "date": "2026-02-25 10:00:00",
+    "tags": "",
+    "categories": "奇思妙想",
+    "description": "一个全球博弈策略游戏的策划方案，玩家扮演国家首脑团进行隐蔽战线操作"
+  },
+  {
+    "id": "blog:奇思妙想-如何基于nr-electron实现跨pc-移动端的项目",
+    "type": "blog",
+    "title": "如何基于NR+ELECTRON实现跨PC+移动端的项目",
+    "uri": "/post/奇思妙想-如何基于nr-electron实现跨pc-移动端的项目.html",
+    "date": "2026-01-07 09:16:55",
+    "tags": "",
+    "categories": "奇思妙想",
+    "description": "技术探讨：基于Node-RED+Electron实现PC与移动端跨平台应用开发方案"
+  },
+  {
+    "id": "blog:temp/e9e79fba-d54d-4496-a990-75f65b387d7f",
+    "type": "blog",
+    "title": "自考学习方案",
+    "uri": "/post/temp/e9e79fba-d54d-4496-a990-75f65b387d7f.html",
+    "date": "2026-01-22 06:05:45",
+    "tags": "",
+    "categories": "自学",
+    "description": "暂无"
+  },
+  {
+    "id": "blog:cold-blade-crosses-black-and-white",
+    "type": "blog",
+    "title": "寒刃渡黑白",
+    "uri": "/post/cold-blade-crosses-black-and-white.html",
+    "date": "2026-01-19 12:15:50",
+    "tags": "",
+    "categories": "小说",
+    "description": "武侠小说《寒刃渡黑白》：独臂剑客沈寻寒在黑白江湖中的生存与坚守"
+  },
+  {
+    "id": "blog:cold-blade-sings",
+    "type": "blog",
+    "title": "寒刃鸣",
+    "uri": "/post/cold-blade-sings.html",
+    "date": "2026-01-19 12:13:28",
+    "tags": "",
+    "categories": "小说",
+    "description": "武侠小说《寒刃鸣》：逃离名门正派的林寒，探寻正邪真相的江湖旅程"
+  },
+  {
+    "id": "blog:late-coming-wind-is-urgent",
+    "type": "blog",
+    "title": "晚来风急",
+    "uri": "/post/late-coming-wind-is-urgent.html",
+    "date": "2026-01-19 12:09:47",
+    "tags": "",
+    "categories": "小说",
+    "description": "武侠小说《晚来风急》：玉蝉秘录引发的江湖纷争，苏晚的逃离之路"
+  },
+  {
+    "id": "blog:总结-2026-年-全新开始吧",
+    "type": "blog",
+    "title": "2026 年 全新开始吧",
+    "uri": "/post/总结-2026-年-全新开始吧.html",
+    "date": "2026-01-09 05:53:57",
+    "tags": "",
+    "categories": "年终总结",
+    "description": "2026年度规划：反思2025年颓废，制定减肥与学习全新目标"
+  },
+  {
+    "id": "blog:设计模式-单例模式-使用闭包完成单例模式开发",
+    "type": "blog",
+    "title": "单例模式 - 使用闭包完成单例模式开发",
+    "uri": "/post/设计模式-单例模式-使用闭包完成单例模式开发.html",
+    "date": "2023-09-01 06:23:23",
+    "tags": "",
+    "categories": "设计模式",
+    "description": "JavaScript单例模式详解：使用闭包实现全局唯一实例，含LocalStorage实战代码"
+  },
+  {
+    "id": "blog:设计模式-序",
+    "type": "blog",
+    "title": "序",
+    "uri": "/post/设计模式-序.html",
+    "date": "2023-09-01 06:23:54",
+    "tags": "",
+    "categories": "设计模式",
+    "description": "系统讲解23种GoF设计模式：创建型、结构型、行为型分类与实战应用"
+  },
+  {
+    "id": "blog:设计模式-目录",
+    "type": "blog",
+    "title": "目录",
+    "uri": "/post/设计模式-目录.html",
+    "date": "2023-09-01 06:51:47",
+    "tags": "",
+    "categories": "设计模式",
+    "description": "设计模式专栏导航：完整学习路径索引，掌握面向对象编程精髓"
+  },
+  {
+    "id": "microblog:microblog-c7724e78-37f9-4f2b-97d5-b0fc416aa64a",
+    "type": "microblog",
+    "title": "随心小记01--2026降温",
+    "uri": "/microblog/microblog-c7724e78-37f9-4f2b-97d5-b0fc416aa64a",
+    "date": "2026-01-20 11:57:20",
+    "tags": "",
+    "categories": "microblog",
+    "description": "随心小记：2026年寒潮来袭，回忆2008年大雪天的童年时光"
+  },
+  {
+    "id": "microblog:microblog-8ed1046e-47c5-4041-89b9-ac6a008189bc",
+    "type": "microblog",
+    "title": "随心小记02--关于过去的一款鼠标指针",
+    "uri": "/microblog/microblog-8ed1046e-47c5-4041-89b9-ac6a008189bc",
+    "date": "2026-01-22 06:08:56",
+    "tags": "",
+    "categories": "microblog",
+    "description": "今天想要搜索一下我的blog，也就是当前的网页看一下SEO如何，但是搜错了域名，搜成了 blog.onemue.cn 这是我之前的域名，搜到了 b站 的一篇文章介绍了我的一个指针作品，看到上面的评论 2020年 ，时间过的好快的，眨眼间已经过去了这么久，久到我已进忘记那个指针，我记得的是另外一款使用的，类似于 Deepin 的设计的指针，而这一款好像是纯原创，也好像有参考原型。但是忘记了，毕竟时间很久了。我早就从 window 美化，到了 linux 定制化，未来可能到 mac 稳定化的时代。我还在上面看到了一句话“作者保证将会长期更新优化这款指针”，说起来就十分可笑，作者早就忘记了这个指针，甚至打开作者网站（b站文章中）blog.onemue.cn也会打不开，不过作者想起来了将 blog.onemue.cn 转发到了本站。"
+  },
+  {
+    "id": "microblog:microblog-d6c15b9b-84d3-408e-99a9-d0a62b53b790",
+    "type": "microblog",
+    "title": "随心小记03--AI为什么是一阵风一样的内容呢？",
+    "uri": "/microblog/microblog-d6c15b9b-84d3-408e-99a9-d0a62b53b790",
+    "date": "2026-01-26 09:19:00",
+    "tags": "",
+    "categories": "microblog",
+    "description": "AI为什么是一阵风一样的内容呢？飘来了AI大家都来搞AI，飘来了MCP大家搞MCP，飘来了Skills大家有都在高Skills，跟随主流还是很悬，我觉得还是要做属于自己的AI工作流，保持稳定最重要，不管出现ABC各种各样的工具，他们的本质都是在解决一个问题，上下文，也就是AI只有知道内容才会生成新的内容，基于现有的内容生成全新的内容，这样的意思，如果上下文是混乱的那么，AI生成的内容将会混乱，他无法向人类一样看到并且记住内容， 只能模仿人类看到并且“记住”内容，是否存在一种方式可以实现AI专属的检索呢？而不是学习人类呢？那么AI的感知应该是什么呢？"
+  },
+  {
+    "id": "blog:talk-about-css-selector-priority-calculation-rules",
+    "type": "blog",
+    "title": "一文说透！CSS 选择器优先级计算规则大揭秘",
+    "uri": "/post/talk-about-css-selector-priority-calculation-rules.html",
+    "date": "2022-05-31 19:39:00",
+    "tags": "",
+    "categories": "CSS",
+    "description": "CSS优先级计算规则全解析：ABC三级权重详解+!important使用陷阱"
+  },
+  {
+    "id": "blog:web-标准-javascript-speculation-rules-api-让网页更快的加载",
+    "type": "blog",
+    "title": "让时间快一点，再快一点！",
+    "uri": "/post/web-标准-javascript-speculation-rules-api-让网页更快的加载.html",
+    "date": "2026-01-12 10:35:16",
+    "tags": "",
+    "categories": "JavaScript",
+    "description": "Speculation Rules API实战：网页秒开秘籍，预取与预渲染配置详解"
+  },
+  {
+    "id": "blog:exploration-on-object-order-in-javascript",
+    "type": "blog",
+    "title": "探索 JavaScript Object 顺序：从迷惑到通透，一文读懂",
+    "uri": "/post/exploration-on-object-order-in-javascript.html",
+    "date": "2023-08-18 17:47:53",
+    "tags": "",
+    "categories": "JavaScript",
+    "description": "JavaScript对象属性顺序揭秘：ES6规范变化与浏览器兼容性解析"
+  },
+  {
+    "id": "blog:web-标准-javascript-手写-promise",
+    "type": "blog",
+    "title": "手写 Promise",
+    "uri": "/post/web-标准-javascript-手写-promise.html",
+    "date": "2023-09-18 09:48:43",
+    "tags": "",
+    "categories": "手写代码",
+    "description": "从零手写Promise：深入理解Promise A+规范，掌握异步编程原理"
+  },
+  {
+    "id": "blog:shu-zu-shi-fou-cun-zai-jiao-ji-de-xing-neng-you-hua-wen-ti-z1kwfix",
+    "type": "blog",
+    "title": "数组交集判断的性能优化：从双循环到双指针的多种方法",
+    "uri": "/post/shu-zu-shi-fou-cun-zai-jiao-ji-de-xing-neng-you-hua-wen-ti-z1kwfix.html",
+    "date": "2024-12-31 16:47:50",
+    "tags": "",
+    "categories": "JavaScript",
+    "description": "数组交集性能优化：从O(n²)到O(n)，双指针算法与Set.has对比"
+  },
+  {
+    "id": "blog:shu-zu-shi-fou-cun-zai-jiao-ji-de-xing-neng-you-hua-wen-ti-z1kwfix",
+    "type": "blog",
+    "title": "数组交集判断的性能优化：从双循环到双指针的多种方法",
+    "uri": "/post/shu-zu-shi-fou-cun-zai-jiao-ji-de-xing-neng-you-hua-wen-ti-z1kwfix.html",
+    "date": "2024-12-31 16:47:50",
+    "tags": "",
+    "categories": "JavaScript",
+    "description": "JavaScript数组迭代方法研究：稀疏数组处理与多种遍历方式深度对比"
+  },
+  {
+    "id": "tool:/tool/goto",
+    "type": "tool",
+    "title": "URL 重定向",
+    "uri": "/tool/goto",
+    "description": "安全的外链跳转工具，支持所有 URI 协议"
+  },
+  {
+    "id": "tool:/tool/gzip-compare",
+    "type": "tool",
+    "title": "Gzip 压缩率对比",
+    "uri": "/tool/gzip-compare",
+    "description": "输入两段文本，实时对比它们的 Gzip 压缩率和大小"
+  },
+  {
+    "id": "friend:jellyfin",
+    "type": "friend",
+    "title": "jellyfin",
+    "uri": "https://jellyfin-cn.eeymoo.com/",
+    "description": "为中国大陆用户提供高速稳定的 jellyfin 插件镜像服务"
+  },
+  {
+    "id": "friend:zeroanon",
+    "type": "friend",
+    "title": "zeroanon",
+    "uri": "https://zeroanon.com/",
+    "description": "不做圣经里腐朽的诗集，要做禁书里最惊世骇俗的篇章"
+  },
+  {
+    "id": "friend:dreamytzk",
+    "type": "friend",
+    "title": "dreamytzk",
+    "uri": "https://www.antmoe.com/",
+    "description": ""
+  },
+  {
+    "id": "friend:lhDream's Blog",
+    "type": "friend",
+    "title": "lhDream's Blog",
+    "uri": "https://blog.luhua.site/",
+    "description": "技术、游戏、生活 | 我的个人空间"
+  }
+]
