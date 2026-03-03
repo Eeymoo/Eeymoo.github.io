@@ -70,10 +70,10 @@
     "description": "一个全球博弈策略游戏的策划方案，玩家扮演国家首脑团进行隐蔽战线操作"
   },
   {
-    "id": "blog:奇思妙想-如何基于nr-electron实现跨pc-移动端的项目",
+    "id": "blog:奇思妙想-如何基于NRELECTRON实现跨PC移动端的项目",
     "type": "blog",
     "title": "如何基于NR+ELECTRON实现跨PC+移动端的项目",
-    "uri": "/post/奇思妙想-如何基于nr-electron实现跨pc-移动端的项目.html",
+    "uri": "/post/奇思妙想-如何基于NRELECTRON实现跨PC移动端的项目.html",
     "date": "2026-01-07 09:16:55",
     "tags": "",
     "categories": "奇思妙想",
@@ -200,10 +200,10 @@
     "description": "CSS优先级计算规则全解析：ABC三级权重详解+!important使用陷阱"
   },
   {
-    "id": "blog:web-标准-javascript-speculation-rules-api-让网页更快的加载",
+    "id": "blog:Web-标准-Javascript-Speculation-Rules-API-让网页更快的加载",
     "type": "blog",
     "title": "让时间快一点，再快一点！",
-    "uri": "/post/web-标准-javascript-speculation-rules-api-让网页更快的加载.html",
+    "uri": "/post/Web-标准-Javascript-Speculation-Rules-API-让网页更快的加载.html",
     "date": "2026-01-12 10:35:16",
     "tags": "",
     "categories": "JavaScript",
@@ -220,10 +220,10 @@
     "description": "JavaScript对象属性顺序揭秘：ES6规范变化与浏览器兼容性解析"
   },
   {
-    "id": "blog:web-标准-javascript-手写-promise",
+    "id": "blog:Web-标准-Javascript-手写-Promise",
     "type": "blog",
     "title": "手写 Promise",
-    "uri": "/post/web-标准-javascript-手写-promise.html",
+    "uri": "/post/Web-标准-Javascript-手写-Promise.html",
     "date": "2023-09-18 09:48:43",
     "tags": "",
     "categories": "手写代码",
