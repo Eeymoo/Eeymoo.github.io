@@ -210,6 +210,20 @@
     "description": "Speculation Rules API实战：网页秒开秘籍，预取与预渲染配置详解"
   },
   {
+    "id": "blog:Web-标准-Javascript-test-citation-demo",
+    "type": "blog",
+    "title": "引用功能测试文章",
+    "uri": "/post/Web-标准-Javascript-test-citation-demo.html",
+    "date": "2026-03-06",
+    "tags": [
+      "测试"
+    ],
+    "categories": [
+      "JavaScript"
+    ],
+    "description": "测试各种引用语法的效果"
+  },
+  {
     "id": "blog:exploration-on-object-order-in-javascript",
     "type": "blog",
     "title": "探索 JavaScript Object 顺序：从迷惑到通透，一文读懂",
