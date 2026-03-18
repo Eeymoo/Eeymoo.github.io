@@ -2,7 +2,7 @@ import { e as createAstro, c as createComponent, a as renderTemplate, u as unesc
 import 'piccolore';
 import 'clsx';
 import { a as SITE_TITLE, c as generateColorFromHash } from './index.9d944532.js';
-import { g as globalCssUrl, d as darkModeCssUrl, t as themeColorCssUrl, l as logoCssUrl } from './about.9d94453.js';
+import { g as globalCssUrl, d as darkModeCssUrl, t as themeColorCssUrl, l as logoCssUrl } from './about-1.9d94453.js';
 
 const FallbackImage = new Proxy({"src":"/assets/blog-placeholder-1.9d94453.jpg","width":960,"height":480,"format":"jpg"}, {
 						get(target, name, receiver) {
